@@ -71,7 +71,7 @@
   (pad "1" smd rect (at -2.286 3.95) (size 1.5 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 04e40524-2183-4c1d-b9da-76b955457b43))
   (pad "2" smd rect (at 0 -2.3) (size 6.3 6.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 10c35c86-c81c-4371-b9b2-14118cbec54b))
   (pad "3" smd rect (at 2.286 3.95) (size 1.5 2.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 5c681a52-7c31-4136-a128-e2f70c57658a))
-  (model "X:/_kicad/kicad-master/DPAK/3D/DPAK_TO-252AA-3p.step"
+  (model "X:/_github/kicad-footprints/DPAK/3D/DPAK_TO-252AA-3p.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

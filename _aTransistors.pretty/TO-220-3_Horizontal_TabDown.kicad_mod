@@ -64,7 +64,7 @@
   (pad "" np_thru_hole oval (at 2.54 -16.66) (size 3.5 3.5) (drill 3.5) (layers "*.Cu" "*.Mask") (tstamp 431fc51c-d03d-459b-bfba-7af6575016da))
   (pad "1" thru_hole roundrect (at 0 0) (size 2 2.2) (drill 1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp e49aa65c-2299-400f-8f7b-ccc18209273a))
   (pad "2" thru_hole oval (at 2.54 0) (size 2 2.3) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 89052a8e-38f9-44e9-af19-d74424445043))
-  (pad "3" thru_hole oval (at 5.08 0) (size 2 2.3) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp bffbe414-8eb6-4157-abf8-d3a84b8ff3b9))
+  (pad "3" thru_hole oval (at 5.08 0) (size 2 2.3) (drill 1) (layers "*.Cu" "*.Mask") (tstamp bffbe414-8eb6-4157-abf8-d3a84b8ff3b9))
   (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))

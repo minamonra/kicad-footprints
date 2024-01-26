@@ -33,9 +33,4 @@
     (stroke (width 0.12) (type default)) (layer "F.SilkS") (tstamp 864a90c8-68b9-4d04-8a43-b9c9b3460487))
   (pad "1" thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp fe2b6c7b-8943-47ee-99cf-04a49551311f))
   (pad "2" thru_hole circle (at 13.5 0) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp fc8cfeb6-a3b0-42c5-bbc3-e8ea8798d7d4))
-  (model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D11.0mm_W5.0mm_P10.00mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )

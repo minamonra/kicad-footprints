@@ -1,12 +1,10 @@
-(footprint "L_T250-26-OSram1"
+(footprint "Gerk01"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Self Ferrite 14 - 08")
-	(tags "SELF")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -7.62 0)
 		(layer "F.SilkS")
 		(uuid "50e63a34-26ee-4ae0-84b1-a4e999b480a1")
 		(effects
@@ -16,9 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "L_T250-26-OSram1"
-		(at 0.5 0 0)
+	(property "Value" "~"
+		(at -5.08 0 90)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "cab8d095-94f0-4546-bf73-ffd47c6348a2")
 		(effects
 			(font
@@ -28,7 +27,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +39,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -52,7 +51,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -64,30 +63,8 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center 0 0)
-		(end 16 0)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "962aee59-70f5-4725-b6ec-f8ebc82c2bca")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 32 0)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "fae979d0-25aa-42da-ba1d-903ed3e142d0")
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 -5.08 0)
 		(layer "F.Fab")
 		(uuid "751fffde-d515-474e-aeec-e8286d2f7b6f")
 		(effects
@@ -98,33 +75,17 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 40 10)
-		(size 3 3)
-		(drill 1.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a3f2d09c-da05-4820-bcc2-ad6b061774cb")
-	)
-	(pad "1" thru_hole circle
-		(at 40 14)
-		(size 3 3)
-		(drill 1.8)
+		(at 11.43 0 90)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2e48e504-22c4-44a8-bc7c-e9a36d0bceb3")
 	)
 	(pad "2" thru_hole circle
-		(at 40 -14)
-		(size 3 3)
-		(drill 1.8)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "f76d4193-c513-4159-9f2e-f9939f710bae")
-	)
-	(pad "2" thru_hole circle
-		(at 40 -10)
-		(size 3 3)
-		(drill 1.8)
+		(at -11.43 0 90)
+		(size 2 2)
+		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "9742c5c7-ee52-4aaa-9cde-e1baa2dad7ad")

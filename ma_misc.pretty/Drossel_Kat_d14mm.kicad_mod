@@ -1,12 +1,12 @@
-(footprint "CP5"
+(footprint "Drossel_Kat_d14mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -7.62 0)
+		(at 3.75 -3.75 0)
 		(layer "F.SilkS")
-		(uuid "50e63a34-26ee-4ae0-84b1-a4e999b480a1")
+		(uuid "24e79eff-8dde-40ff-9d92-274e680590a0")
 		(effects
 			(font
 				(size 1 1)
@@ -14,11 +14,10 @@
 			)
 		)
 	)
-	(property "Value" "~"
-		(at 0 -5.08 0)
+	(property "Value" "Drossel_Kat_d14mm"
+		(at 3.75 3.75 0)
 		(layer "F.Fab")
-		(hide yes)
-		(uuid "cab8d095-94f0-4546-bf73-ffd47c6348a2")
+		(uuid "dfd3a3b9-1277-4412-b06d-d26ac3d29faa")
 		(effects
 			(font
 				(size 1 1)
@@ -26,16 +25,15 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Drossel_Kat_d14mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "10b1b5a2-5948-4c21-8b9f-f0d267995615")
+		(uuid "7810e23a-6fd1-46bf-9b77-cd97bda8eafa")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -44,11 +42,10 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "98e8cae7-3a3b-4968-9760-fc9f1549e6c3")
+		(uuid "97da0a93-71e7-42f5-bee8-c5d1b91d78e0")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -57,19 +54,29 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e6d676a1-0177-4128-81bd-1f51994d35bb")
+		(uuid "b2f044c1-492c-4da3-a15c-5504ddaac038")
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 0 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1dd81c1b-89ce-40ad-94ef-6ec2abff7167")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -5.08 0)
+		(at 3.75 0 0)
 		(layer "F.Fab")
-		(uuid "751fffde-d515-474e-aeec-e8286d2f7b6f")
+		(uuid "78efc300-f0f8-4462-a8ca-dcdaac938206")
 		(effects
 			(font
 				(size 1 1)
@@ -78,30 +85,19 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 0 3)
-		(size 2 2)
-		(drill 1)
+		(at -4.5 0)
+		(size 3 3)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "2e48e504-22c4-44a8-bc7c-e9a36d0bceb3")
+		(uuid "3e15377b-048c-4ecf-8afa-2fe656189540")
 	)
 	(pad "2" thru_hole circle
-		(at 0 -3)
-		(size 2 2)
-		(drill 1)
+		(at 4.5 0)
+		(size 3 3)
+		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "9742c5c7-ee52-4aaa-9cde-e1baa2dad7ad")
-	)
-	(model "${KICAD8_3DMODEL_DIR}/Inductor_THT.3dshapes/L_SELF1408.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
+		(uuid "d2cfd60f-b6b7-413a-98b8-beb34f615614")
 	)
 )

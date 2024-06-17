@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Gerk01"
 		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -75,7 +75,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at 11.43 0 90)
+		(at 11.43 2.5 90)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -83,7 +83,7 @@
 		(uuid "2e48e504-22c4-44a8-bc7c-e9a36d0bceb3")
 	)
 	(pad "2" thru_hole circle
-		(at -11.43 0 90)
+		(at -11.43 -2.5 90)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")

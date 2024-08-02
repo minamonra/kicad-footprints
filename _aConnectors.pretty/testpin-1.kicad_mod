@@ -1,0 +1,99 @@
+(footprint "testpin-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "test point wire loop bead")
+	(property "Reference" "REF**"
+		(at 0.7 2.5 0)
+		(layer "F.SilkS")
+		(uuid "751c4e33-bc99-4800-b591-f894bbdd3772")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "testpin-1"
+		(at 0 -2.8 0)
+		(layer "F.Fab")
+		(uuid "e833d871-d131-4c65-b122-8022d270ae85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f5895aa-ea4a-4006-923e-994a2f94655b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84ec6c91-4695-4bb9-b830-ed01ae98cefb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3b06505-f840-45fc-bef3-9b7b0e419007")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0.7 2.5 0)
+		(layer "F.Fab")
+		(uuid "71d5f944-d390-4961-b822-cb8c1feebf5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 0.9 0.9)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e6088c25-4b84-4024-b6d0-847a29396859")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/TestPoint.3dshapes/TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

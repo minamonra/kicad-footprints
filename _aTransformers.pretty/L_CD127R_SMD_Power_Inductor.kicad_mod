@@ -1,0 +1,262 @@
+(footprint "L_CD127R_SMD_Power_Inductor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "inductor smd shielded")
+	(property "Reference" "REF**"
+		(at 0 -4.25 0)
+		(layer "F.SilkS")
+		(uuid "1a5b056c-5f66-4b49-9fe1-5d43eb09f092")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_CD127R_SMD_Power_Inductor"
+		(at 0 4.25 0)
+		(layer "F.Fab")
+		(uuid "98969758-9627-4808-86d6-5ae079052b12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcd087e1-d0e6-4dbf-b47f-66cb630eb906")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f775b257-3a79-4859-abca-40dc158a4609")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc559840-6b65-4940-b4d0-4bdf4bddc8df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -3.1)
+		(end -6 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "470fdf27-2803-4a13-bc02-52bb70522746")
+	)
+	(fp_line
+		(start -6 5.1)
+		(end -6 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "90130a10-b853-4e8f-973e-c982091e9169")
+	)
+	(fp_line
+		(start -5.1 -6)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7f72e8b9-0c3f-4268-b352-55fc12f1a93a")
+	)
+	(fp_line
+		(start -5.1 6)
+		(end 0 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14c1479f-5963-4475-b6dd-a4bda541ae43")
+	)
+	(fp_line
+		(start 0 -6)
+		(end 5.1 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "652af214-e440-4d86-b3e3-9415d72a1e45")
+	)
+	(fp_line
+		(start 0 6)
+		(end 5.1 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6eac3782-bfbc-443b-a645-3b4f5071b967")
+	)
+	(fp_line
+		(start 6 -3.1)
+		(end 6 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b8a5d057-6680-4284-9005-aaf242f8565f")
+	)
+	(fp_line
+		(start 6 5.1)
+		(end 6 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "efdef6d8-d50e-4b48-af6e-32e9b326f05d")
+	)
+	(fp_arc
+		(start -6 -5.1)
+		(mid -5.736396 -5.736396)
+		(end -5.1 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "34a7af33-4054-4717-897e-bf8a5cb80eec")
+	)
+	(fp_arc
+		(start -5.1 6)
+		(mid -5.736396 5.736396)
+		(end -6 5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14304e06-ad3f-48da-8e5a-bda647fde7c3")
+	)
+	(fp_arc
+		(start 5.1 -6)
+		(mid 5.736396 -5.736396)
+		(end 6 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a47041a4-ad3e-4c4e-af23-53a571833ee0")
+	)
+	(fp_arc
+		(start 6 5.1)
+		(mid 5.736396 5.736396)
+		(end 5.1 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4ec24bcf-672f-42e5-ac6a-f63216ee8f7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "aaae45e9-b2a4-4afe-985f-9f98f24a12d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -5 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "beae5ae5-abe6-48e6-8f98-ed453414f3c5")
+	)
+	(pad "2" smd roundrect
+		(at 5.1 0)
+		(size 2.9 5.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(uuid "88d41203-4061-477d-ae8d-021c6f6187c7")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F.Cu" "In1.Cu" "In2.Cu" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu"
+			"In8.Cu" "In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu"
+			"In16.Cu" "In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu"
+			"In23.Cu" "In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu"
+			"In30.Cu" "F.SilkS"
+		)
+		(uuid "11f47fd5-0c95-4114-9b92-8547b2551d22")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -3.5 -7) (xy 3.5 -7) (xy 3.5 7) (xy -3.5 7)
+			)
+		)
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Abracon_ASPI-0630LR.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

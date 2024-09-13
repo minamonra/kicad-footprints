@@ -1,0 +1,246 @@
+(footprint "TO-220-3_Vertical_middle_out"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf")
+	(tags "TO-220-3 Vertical RM 2.54mm")
+	(property "Reference" "REF**"
+		(at 2.54 -4.27 0)
+		(layer "F.SilkS")
+		(uuid "6bd27186-b010-4029-b24e-312d37f4dced")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-220-3_Vertical_middle_out"
+		(at 2.54 2.5 0)
+		(layer "F.Fab")
+		(uuid "16ac26a3-a630-4166-ae92-c0a5a344b818")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0eb23a0-fb48-4d4f-9fc1-41510052ab61")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb6628a0-0dd0-4a99-8be7-8494de8b4bc7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "09cb057f-78a0-413c-b779-ce2302b3eedb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.58 -3.27)
+		(end -2.58 1.4224)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "986af05e-2b2d-4bb3-9220-40c8702080f5")
+	)
+	(fp_line
+		(start -2.58 -3.27)
+		(end 7.66 -3.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e11c88e-b754-4e99-979d-9ed02540aa72")
+	)
+	(fp_line
+		(start -2.58 -1.76)
+		(end 7.66 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebbd28ed-539a-463f-87c1-672f02806572")
+	)
+	(fp_line
+		(start 0.69 -3.27)
+		(end 0.69 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62123731-894a-437d-8de5-08654a6ce7cd")
+	)
+	(fp_line
+		(start 1.1284 1.4224)
+		(end -2.58 1.4224)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c2a2b0ce-d4e7-49d9-9087-beb7097e428c")
+	)
+	(fp_line
+		(start 1.1284 1.4224)
+		(end 1.1284 6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "05cc302f-0677-4f8e-885a-b7f390507da3")
+	)
+	(fp_line
+		(start 3.9624 1.4224)
+		(end 3.9624 6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b740c5fa-3aa2-41a7-86d3-faa0281cc582")
+	)
+	(fp_line
+		(start 3.9624 6)
+		(end 1.1284 6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e47a5acc-9bd0-4e11-915d-5ca7e5d020e7")
+	)
+	(fp_line
+		(start 4.391 -3.27)
+		(end 4.391 -1.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7b03a21f-7573-4d8a-a43b-ade3de400f74")
+	)
+	(fp_line
+		(start 7.66 -3.27)
+		(end 7.6708 1.4224)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb53d577-1473-441f-99f0-57c4b1564e40")
+	)
+	(fp_line
+		(start 7.6708 1.4224)
+		(end 3.9624 1.4224)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "016545d0-ab3a-418d-8f90-dd95365688d1")
+	)
+	(fp_line
+		(start 0.69 -3.15)
+		(end 0.69 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "abbd6c58-0999-4df1-982d-ebcb7149eb26")
+	)
+	(fp_line
+		(start 4.39 -3.15)
+		(end 4.39 -1.88)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72e88e95-95fe-4ba6-ae5a-65edfb0394ad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -4.27 0)
+		(layer "F.Fab")
+		(uuid "4beaf1d8-ba51-43ae-abad-4dd39e51926a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 2.2 2.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36b39aab-cf22-4a54-a01f-def500168bfb")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 4.5)
+		(size 2.2 2.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba4e0e83-5466-49c3-b975-b1afe7bcdc43")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0)
+		(size 2.2 2.6)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae97195c-63df-42c6-8ed3-15f6e0c98594")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -69,8 +69,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -12 -6)
-		(end -12 -5)
+		(start -12 -9.5)
+		(end -12 -7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -79,8 +79,8 @@
 		(uuid "d716ddbf-b5e0-4bca-92bb-7631789f0f39")
 	)
 	(fp_line
-		(start -12 -6)
-		(end 0 -6)
+		(start -12 -9.5)
+		(end 0 -9.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -89,7 +89,7 @@
 		(uuid "5f7a3a8c-1665-466a-b44f-2ebf71e2400f")
 	)
 	(fp_line
-		(start -12 -3)
+		(start -12 -5.5)
 		(end -12 0)
 		(stroke
 			(width 0.1)
@@ -100,7 +100,7 @@
 	)
 	(fp_line
 		(start -12 0)
-		(end -12 6)
+		(end -12 9.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -109,8 +109,8 @@
 		(uuid "bc92ca5e-24a2-4270-8354-ca6990afbd19")
 	)
 	(fp_line
-		(start -12 6)
-		(end 0 6)
+		(start -12 9.5)
+		(end -11.5 9.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -119,8 +119,8 @@
 		(uuid "dc35e90c-84d6-42be-81db-3b03dba9e3e2")
 	)
 	(fp_line
-		(start -10 -6)
-		(end -10 -1)
+		(start -10.5 -9.5)
+		(end -10.5 -3.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -129,8 +129,8 @@
 		(uuid "147e7b91-88ec-4747-be64-9d20f8084775")
 	)
 	(fp_line
-		(start -10 -1)
-		(end -3 -1)
+		(start -10.5 -3.5)
+		(end -1.5 -3.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -139,18 +139,28 @@
 		(uuid "de18e94b-0823-4c7d-b36d-9e309ec89a56")
 	)
 	(fp_line
-		(start -3 -1)
-		(end -3 -6)
+		(start -9.5 9.5)
+		(end -3.5 9.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "696ee9e1-1ad2-4253-9232-3636746e653a")
+		(uuid "0b8e2407-1e3b-4612-afd0-8a49f89ab76f")
 	)
 	(fp_line
-		(start 0 -6)
-		(end 12 -6)
+		(start -1.5 -9.5)
+		(end -1.5 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "733f50ed-3219-4c72-af34-da0bb3d3c2f6")
+	)
+	(fp_line
+		(start 0 -9.5)
+		(end 12 -9.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -159,8 +169,28 @@
 		(uuid "0bbd51c4-cbb5-4670-b1e5-94228231a75a")
 	)
 	(fp_line
-		(start 0 6)
-		(end 12 6)
+		(start 1.5 9.5)
+		(end -1 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "84292196-4e2f-4e65-873c-1f69f4175723")
+	)
+	(fp_line
+		(start 3.5 9.5)
+		(end 9.5 9.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "741b5ed8-0a4f-4646-9a17-b7c4b4526d9a")
+	)
+	(fp_line
+		(start 11.5 9.5)
+		(end 12 9.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -169,17 +199,17 @@
 		(uuid "1fe1c82d-bf2e-403d-a2e1-acb0a80933fe")
 	)
 	(fp_line
-		(start 12 -5)
-		(end 12 -6)
+		(start 12 -9.5)
+		(end 12 -7.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "375bbc0d-3f92-42c5-9bf8-fa9a5a3b8b9a")
+		(uuid "3791463b-599a-4474-925c-5a2e9000f990")
 	)
 	(fp_line
-		(start 12 -3)
+		(start 12 -5.5)
 		(end 12 0)
 		(stroke
 			(width 0.1)
@@ -190,7 +220,7 @@
 	)
 	(fp_line
 		(start 12 0)
-		(end 12 6)
+		(end 12 9.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -199,9 +229,9 @@
 		(uuid "9c4d355d-2aa2-4d5c-99a1-44adcd4998de")
 	)
 	(fp_arc
-		(start -12 -5)
-		(mid -11 -4)
-		(end -12 -3)
+		(start -12 -7.5)
+		(mid -11 -6.5)
+		(end -12 -5.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -210,9 +240,9 @@
 		(uuid "e46fdaa7-323c-46df-96f9-2ad0215a1845")
 	)
 	(fp_arc
-		(start 12 -3)
-		(mid 11 -4)
-		(end 12 -5)
+		(start 12 -5.5)
+		(mid 11 -6.5)
+		(end 12 -7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -232,7 +262,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at 10.16 4.445 90)
+		(at 10.5 8.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
@@ -240,7 +270,7 @@
 		(uuid "450c04a9-4c23-4e5f-941f-33e0ff3b55d4")
 	)
 	(pad "2" thru_hole oval
-		(at 2.54 4.445 90)
+		(at 2.5 8.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
@@ -248,7 +278,7 @@
 		(uuid "df2dfed0-007e-4ebd-b07d-184ef825edcd")
 	)
 	(pad "3" thru_hole oval
-		(at -10.16 4.445 90)
+		(at -10.5 8.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
@@ -256,7 +286,7 @@
 		(uuid "1543a072-c31f-4d9b-b10c-fe598155f764")
 	)
 	(pad "4" thru_hole oval
-		(at -2.54 4.445 90)
+		(at -2.25 8.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")

@@ -1,0 +1,227 @@
+(footprint "Diode_Bridge_Vishay_KBU_UnderPCB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Vishay KBU rectifier package, 5.08mm pitch, see http://www.vishay.com/docs/88656/kbu4.pdf")
+	(tags "Vishay KBU rectifier diode bridge")
+	(property "Reference" "REF**"
+		(at 7.8 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "d9bec365-0e73-40fa-a1e6-a035a4c27ec6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Diode_Bridge_Vishay_KBU_UnderPCB"
+		(at 7.5 6.2 0)
+		(layer "F.Fab")
+		(uuid "4961c6d1-5ae2-4612-b983-adaff3c7f660")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6fa4cae-2c56-4bbd-ad3f-dbc6a8e8ebe0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47650ed4-0409-4428-8780-1d5e6fb77188")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3dffb1f-9ab0-4524-8e1c-e5818b3186fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -2)
+		(end 20 -2)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "3a4f369f-7047-4087-8159-9b31931a0d11")
+	)
+	(fp_line
+		(start -4 0)
+		(end -4 -2)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "c4eb9b34-5777-4862-87d1-275ddb0cb9a7")
+	)
+	(fp_line
+		(start -4 20)
+		(end -4 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "74853fe3-e010-476a-84ab-8d0c9693c323")
+	)
+	(fp_line
+		(start 20 0)
+		(end 20 -2)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "89095fe7-ae6d-4a90-857e-4902a8f571b1")
+	)
+	(fp_line
+		(start 20 0)
+		(end 20 20)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "8e514810-b1c3-4f9a-ae8e-6abbc0167ef4")
+	)
+	(fp_line
+		(start 20 20)
+		(end -4 20)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "f70a1c4d-05f5-4c45-a872-c099dc7b8450")
+	)
+	(fp_line
+		(start 4 10)
+		(end 4 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "0e34b59c-4a00-4856-b99c-5e51204bc8a9")
+	)
+	(fp_line
+		(start 12 10)
+		(end 12 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fb6f89d8-d382-4c53-b286-5eb498dcdaad")
+	)
+	(fp_arc
+		(start 4 10)
+		(mid 8 6)
+		(end 12 10)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a2fb2994-bf77-4e73-8682-2e0ab35960d0")
+	)
+	(fp_arc
+		(start 12 12)
+		(mid 8 16)
+		(end 4 12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1f5fba10-988f-4836-b4f6-28bc7e390e34")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 7.7 3.3 0)
+		(layer "F.Fab")
+		(uuid "a4e55bb0-d2b4-4c97-a6e5-75cec3dad55e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 15.24 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.08333333333)
+		(uuid "b5cfc071-77bd-4477-ab2e-ab5801a2f5a1")
+	)
+	(pad "2" thru_hole circle
+		(at 10.16 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bade78f0-1656-4442-acf2-9408f6377803")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2285d01a-2d61-4682-a936-7e24dbcd2e05")
+	)
+	(pad "4" thru_hole circle
+		(at 0 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f1354aea-2788-431b-ab27-c07bda0dd0b5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Diode_THT.3dshapes/Diode_Bridge_Vishay_KBU.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

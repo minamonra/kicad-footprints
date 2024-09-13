@@ -1,0 +1,195 @@
+(footprint "TO-247-3_Under_PCB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "T3"
+		(at 5.5 -6.5 0)
+		(layer "F.SilkS")
+		(uuid "e2de6301-1620-4cf2-adf9-8f7a6d9c3ad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "23N50"
+		(at 5.45 3.25 0)
+		(layer "F.Fab")
+		(uuid "f852b1b7-35e0-461c-a871-01f08097944f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ecf982e6-4ed3-4c1d-ae48-5cd7c8b3b884")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e87c68d-e616-42ae-b7bb-92d08f860617")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "N-канальный MOSFET транзистор c встроенным каналом"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a95491ab-ffeb-48a3-b3d1-1f2323ebe8cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.62 -26.15)
+		(end -2.62 -4.96)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "a4e2d404-c165-46ab-94e9-18455ff4df35")
+	)
+	(fp_line
+		(start -2.62 -26.15)
+		(end 13.52 -26.15)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "de36f767-cdd2-49a5-96ef-f81674be1de6")
+	)
+	(fp_line
+		(start -2.62 -4.96)
+		(end 13.52 -4.96)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "71080472-0aaf-4c2d-96b8-b04f3a70cae5")
+	)
+	(fp_line
+		(start 0 -4.96)
+		(end 0 -2.4)
+		(stroke
+			(width 0.12)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "e1b7f896-27d5-4a1b-8a16-0759aa7d746b")
+	)
+	(fp_line
+		(start 5.45 -4.96)
+		(end 5.45 -2.4)
+		(stroke
+			(width 0.12)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "c5b75ddf-f500-4597-966a-22ae6267dfa5")
+	)
+	(fp_line
+		(start 10.9 -4.96)
+		(end 10.9 -2.4)
+		(stroke
+			(width 0.12)
+			(type dot)
+		)
+		(layer "F.SilkS")
+		(uuid "57f4332a-2175-44f7-afa2-09e2ed0e7a09")
+	)
+	(fp_line
+		(start 13.52 -26.15)
+		(end 13.52 -4.96)
+		(stroke
+			(width 0.12)
+			(type dash)
+		)
+		(layer "F.SilkS")
+		(uuid "4ec0a7a6-a377-43af-bf1f-f538e1405460")
+	)
+	(fp_circle
+		(center 5.45 -19.86)
+		(end 7.85 -19.86)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "e5973b8c-5997-49fb-bc04-f3ed64f4557e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.45 -27.15 0)
+		(layer "F.Fab")
+		(uuid "68ade571-3646-43df-a075-4160251c9734")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2.5 4.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7cd6baa6-9b3d-43a6-b78e-555986b8e016")
+	)
+	(pad "2" thru_hole oval
+		(at 5.45 0)
+		(size 2.5 4.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f9bff699-6873-4f3c-a24a-805ac0cb71b7")
+	)
+	(pad "3" thru_hole oval
+		(at 10.9 0)
+		(size 2.5 4.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b23618f-687e-4d55-996b-a453f17587e7")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-3_Horizontal_TabDown.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

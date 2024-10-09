@@ -1,0 +1,304 @@
+(footprint "L_Ring_Power_Inductor_13x18_led_drv"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "powe inductor индуктивность силовая драйвер светодиодный")
+	(property "Reference" "REF**"
+		(at 0 -3.12 0)
+		(layer "F.SilkS")
+		(uuid "bbbde276-8279-4d8e-a681-cb63aedf9aae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Ring_Power_Inductor_13x18_led_drv"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "719de6e4-ad0e-492b-bd70-06437595866d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -9 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19e69e0a-f3f4-45ac-bc67-1e7da6bca38b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -9 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f2a9875-8f30-4d41-92e8-227127794edf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -9 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef50310c-ab04-4c71-9691-b4da81d58771")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9 -2)
+		(end -9 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "11afabb7-e68e-4cda-92bc-ed0d14b64ecf")
+	)
+	(fp_line
+		(start -9 0)
+		(end -9 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8aac0356-7ae8-4a27-a4ea-9a066a46ec59")
+	)
+	(fp_line
+		(start -4.5 -6.5)
+		(end -3.3 -6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cd7ec2f9-69d4-41a3-92ae-19a8a0449340")
+	)
+	(fp_line
+		(start -4.5 6.5)
+		(end -3.2 6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a432b90-0418-4a60-a5d9-58ee8a0eb30c")
+	)
+	(fp_line
+		(start 2.4 -6.5)
+		(end 4.5 -6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8081ecaa-b617-4cd6-b3c1-4f9a26a1432a")
+	)
+	(fp_line
+		(start 2.4 6.5)
+		(end 4.5 6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44d99e72-3474-4894-8a85-7dc3d250e6bb")
+	)
+	(fp_line
+		(start 9 -2)
+		(end 9 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bd2acd7d-e839-4221-9f53-aa12007a2eab")
+	)
+	(fp_line
+		(start 9 -0.25)
+		(end 9 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a1d14b1-1893-45a0-86af-c7b2e59462b3")
+	)
+	(fp_arc
+		(start -9 -2)
+		(mid -7.681981 -5.181981)
+		(end -4.5 -6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eeb39ee2-0643-4301-b9d7-47fb71eac267")
+	)
+	(fp_arc
+		(start -4.5 6.5)
+		(mid -7.681981 5.181981)
+		(end -9 2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e4707bf7-f7ce-43c1-a158-523575a11dbf")
+	)
+	(fp_arc
+		(start 4.5 -6.5)
+		(mid 7.681981 -5.181981)
+		(end 9 -2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56265c1e-19f3-417e-9179-a8a2d89392ea")
+	)
+	(fp_arc
+		(start 9 2)
+		(mid 7.681981 5.181981)
+		(end 4.5 6.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9ec7d6a-8ea1-4952-899f-17835d04b257")
+	)
+	(fp_line
+		(start 1.2 -7.3)
+		(end -2 -7.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b16d4329-9878-4bb3-baaa-32da79bc402f")
+	)
+	(fp_line
+		(start 1.2 -5.7)
+		(end -2 -5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "eaa16fd2-8d35-4437-85b9-2449fdc889f2")
+	)
+	(fp_line
+		(start 1.2 5.7)
+		(end -2 5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4e5d3dad-7aa0-4a59-8627-36073eeae944")
+	)
+	(fp_line
+		(start 1.2 7.3)
+		(end -2 7.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6d77e7c0-b484-42ff-8665-59dffbae9bb2")
+	)
+	(fp_arc
+		(start -2 -5.7)
+		(mid -2.8 -6.5)
+		(end -2 -7.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c5767e4a-0bdc-4a17-8007-fc28ce955e5e")
+	)
+	(fp_arc
+		(start -2 7.3)
+		(mid -2.8 6.5)
+		(end -2 5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86e9fc95-891e-4647-b00e-c307b29cba2c")
+	)
+	(fp_arc
+		(start 1.2 -7.3)
+		(mid 2 -6.5)
+		(end 1.2 -5.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e3904319-a114-455c-8bb6-a7e66f0e7378")
+	)
+	(fp_arc
+		(start 1.2 5.7)
+		(mid 2 6.5)
+		(end 1.2 7.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f98cdf06-e073-4640-a0bf-e001604999e2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "ca71ab2b-f163-4578-a5ff-d27feb42a06b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -7.5 -7.5)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ccae51b6-ed22-4b65-b8fd-bf15469ce03c")
+	)
+	(pad "2" thru_hole oval
+		(at -7.5 7.5)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e4bff42-8bba-495c-81bd-8a2b2192dd0f")
+	)
+)

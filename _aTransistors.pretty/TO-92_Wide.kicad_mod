@@ -1,0 +1,242 @@
+(footprint "TO-92_Wide"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-92 leads molded, wide, drill 0.75mm (see NXP sot054_po.pdf)")
+	(tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
+	(property "Reference" "T2"
+		(at 2.54 -0.77 180)
+		(layer "F.SilkS")
+		(uuid "a037bdac-f84d-4f09-bfb8-10bac744b28b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BC546"
+		(at 2.54 2.79 180)
+		(layer "F.Fab")
+		(uuid "5332f521-7630-4b14-9431-e75ab2737b28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Package_TO_SOT_THT:TO-92_Wide"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5bf87a7-7c1d-43cb-b56d-3caa2840b160")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc7eeab5-cc49-4fa7-a82c-19ac3b1b89d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Биполярный NPN транзистор"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a6e9c2f-b336-4c06-85b8-f20d330adc91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.74 1.85)
+		(end 4.34 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17adceb6-903e-40c2-b17f-a92fe3662562")
+	)
+	(fp_arc
+		(start 0.172801 -1.103842)
+		(mid 0.678995 -1.832692)
+		(end 1.4 -2.35)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22b126fb-024f-42fb-992e-36615879eb65")
+	)
+	(fp_arc
+		(start 0.74 1.85)
+		(mid 0.446097 1.509328)
+		(end 0.215816 1.122795)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9eed06d1-548e-4a4b-a3d4-78acd4f8fe62")
+	)
+	(fp_arc
+		(start 3.65 -2.35)
+		(mid 4.382279 -1.833196)
+		(end 4.895458 -1.098371)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af82d977-4393-4621-aedf-492823892a7a")
+	)
+	(fp_arc
+		(start 4.864184 1.122795)
+		(mid 4.633903 1.509328)
+		(end 4.34 1.85)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "610ef05e-9560-4bdf-b02f-8684d7ace6ac")
+	)
+	(fp_line
+		(start -1.01 -3.55)
+		(end -1.01 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c813a85-4e30-4c04-98d0-10a57486cb4b")
+	)
+	(fp_line
+		(start -1.01 -3.55)
+		(end 6.09 -3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50b3598e-cb5e-4dc4-8e4f-895c90029c2a")
+	)
+	(fp_line
+		(start 6.09 2.01)
+		(end -1.01 2.01)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec45acab-8580-4e8b-b1fc-b659fa630e73")
+	)
+	(fp_line
+		(start 6.09 2.01)
+		(end 6.09 -3.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0992fc7f-1d34-4ed8-96ad-9349d2604e23")
+	)
+	(fp_line
+		(start 0.8 1.75)
+		(end 4.3 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bbeecb79-fe77-4418-b193-8f0bd69bbe16")
+	)
+	(fp_arc
+		(start 0.786375 1.753625)
+		(mid 0.248779 -0.949055)
+		(end 2.54 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e07505d9-0001-453e-b226-8f5f7236ce64")
+	)
+	(fp_arc
+		(start 2.54 -2.48)
+		(mid 4.831221 -0.949055)
+		(end 4.293625 1.753625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a8dde2fd-683a-4b75-80e3-cf2194690038")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 180)
+		(layer "F.Fab")
+		(uuid "cd5c170f-5c7c-48a8-bc32-0f4eacf49958")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38d4d9f5-4083-4c86-9061-94fcdd0533c6")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 1.8 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fc7270bd-4729-4d00-8078-c3e6f9c09a5a")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5b32d602-683e-4771-9329-8ac140c43c20")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92_Wide.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

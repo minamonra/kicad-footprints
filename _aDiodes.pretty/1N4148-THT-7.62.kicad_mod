@@ -1,0 +1,225 @@
+(footprint "1N4148-THT-7.62"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "Diode DO-34_SOD68 series Axial Horizontal pin pitch 7.62mm  length 3.04mm diameter 1.6mm")
+	(property "Reference" "REF**"
+		(at 0 -1.92 0)
+		(layer "F.SilkS")
+		(uuid "9b0d79ea-7f7d-4229-8376-4408ef839fe5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 1.524 0)
+		(layer "F.Fab")
+		(uuid "b979b50f-a112-4a30-ae9e-7f38ea3334c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88b1f0c2-841e-405a-a2da-e405a25a2f7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dda7dee8-d143-4257-9415-d2120699367c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14667d22-9e1d-44ec-bdfb-652117f93801")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.82 0)
+		(end -1.64 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "70588ee8-bc48-41b5-86dc-8be91c35bf5a")
+	)
+	(fp_line
+		(start -1.64 -0.92)
+		(end -1.64 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "78f44c9b-d14c-4b87-ac87-32f5e7e2a00f")
+	)
+	(fp_line
+		(start -1.64 0.92)
+		(end 1.64 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e0e51df-4c05-4455-ac7d-110f540e473d")
+	)
+	(fp_line
+		(start -1.184 -0.92)
+		(end -1.184 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1df5af4-a39d-42ab-b1b3-ef9c7e187e66")
+	)
+	(fp_line
+		(start -1.064 -0.92)
+		(end -1.064 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f1d00a9d-d0d4-451e-acc9-c7ee9787c6b1")
+	)
+	(fp_line
+		(start -0.944 -0.92)
+		(end -0.944 0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "070567ed-8c6b-417f-84ee-8b78735ed43a")
+	)
+	(fp_line
+		(start 1.64 -0.92)
+		(end -1.64 -0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c4040e1-26e4-430b-b8af-58c1eabb7d08")
+	)
+	(fp_line
+		(start 1.64 0.92)
+		(end 1.64 -0.92)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93cb6fa5-0b2e-4e41-8411-30280be2844d")
+	)
+	(fp_line
+		(start 2.82 0)
+		(end 1.64 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90a0896d-cf21-40f2-b689-ad8849bfd1dc")
+	)
+	(fp_line
+		(start -1.164 -0.8)
+		(end -1.164 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8f412179-02f8-4102-bff2-cbdef43a42c1")
+	)
+	(fp_line
+		(start -1.064 -0.8)
+		(end -1.064 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d6985cab-8c47-43a2-a4c2-35a944cb7f64")
+	)
+	(fp_line
+		(start -0.964 -0.8)
+		(end -0.964 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "116d461f-d615-4a85-b9cc-e094451f38bd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cfb981ed-8c26-4c6d-a4f1-b8bd685614d0")
+		(effects
+			(font
+				(size 0.608 0.608)
+				(thickness 0.0912)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.81 0)
+		(size 1.9 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "406db0b9-5962-4909-a922-7a49bdff9859")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 2 2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04c568ae-0d8b-4680-ac99-a3ac156665d7")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-34_SOD68_P7.62mm_Horizontal.wrl"
+		(offset
+			(xyz -4 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

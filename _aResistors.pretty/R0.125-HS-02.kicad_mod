@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "резистор ручная пайка")
 	(property "Reference" "R"
-		(at 5.08 0 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "8458f273-23e8-40fd-94d5-7cf5bfcd77b8")
 		(effects
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" ""
-		(at 5.08 2.37 0)
+	(property "Value" "Val**"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ef128db7-9fd4-42ea-a14d-e888cfac243b")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at -5.08 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -5.08 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(property "Description" "резистор ручная пайка, только шёлк"
+	(property "Description" "~"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start 1.81 -1.37)
-		(end 1.81 1.37)
+		(start -3.27 -1.37)
+		(end -3.27 1.37)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -78,8 +78,8 @@
 		(uuid "d3b97147-0e6a-4bc2-850f-03847ac20dba")
 	)
 	(fp_line
-		(start 1.81 1.37)
-		(end 8.35 1.37)
+		(start -3.27 1.37)
+		(end 3.27 1.37)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,8 +88,8 @@
 		(uuid "ff4acd30-88b6-4447-ae68-978d615133a6")
 	)
 	(fp_line
-		(start 8.35 -1.37)
-		(end 1.81 -1.37)
+		(start 3.27 -1.37)
+		(end -3.27 -1.37)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,8 +98,8 @@
 		(uuid "25981c4a-a0a9-4c2e-a09e-e144d8e4bdc7")
 	)
 	(fp_line
-		(start 8.35 1.37)
-		(end 8.35 -1.37)
+		(start 3.27 1.37)
+		(end 3.27 -1.37)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,7 +108,7 @@
 		(uuid "5d1c5a5a-16e6-4fd9-aae4-3650234f6844")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 5.08 0 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "140e66f3-74f4-48ac-8e61-d331fa034849")
 		(effects
@@ -119,7 +119,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at 0 0)
+		(at -5.08 0)
 		(size 2 1.8)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -127,7 +127,7 @@
 		(uuid "7bac7144-f2e5-445b-8522-9053205c3d1c")
 	)
 	(pad "2" thru_hole oval
-		(at 10.16 0)
+		(at 5.08 0)
 		(size 2 1.8)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -136,7 +136,7 @@
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 		(offset
-			(xyz 0 0 0)
+			(xyz -5 0 0)
 		)
 		(scale
 			(xyz 1 1 1)

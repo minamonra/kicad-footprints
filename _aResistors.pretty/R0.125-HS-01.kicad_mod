@@ -3,8 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
-	(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 	(property "Reference" "R3"
 		(at 5.08 0 0)
 		(layer "F.SilkS")
@@ -16,14 +14,15 @@
 			)
 		)
 	)
-	(property "Value" "22k"
+	(property "Value" "Val**"
 		(at 5.08 2.37 0)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "ef128db7-9fd4-42ea-a14d-e888cfac243b")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+				(italic yes)
 			)
 		)
 	)

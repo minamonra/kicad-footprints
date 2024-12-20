@@ -1,0 +1,241 @@
+(footprint "Inductor-rs-for-amplifier-01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0614 series, Axial, Horizontal, pin pitch=20.32mm, 1.5W, length*diameter=14.3*5.7mm^2")
+	(tags "Resistor Axial_DIN0614 series Axial Horizontal pin pitch 20.32mm 1.5W length 14.3mm diameter 5.7mm")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "8a23d95e-9065-434b-9d25-1b3db4814579")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Inductor-rs-for-amplifier-01"
+		(at 1 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4584a77c-81f0-4c97-b2c6-998514e5cb75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86ec04d4-5ed5-4470-bc53-f4b2ce11e7a2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9717242-6c3b-4e58-b245-1e4ecfd122bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d18f136c-130b-4235-975f-1efd0c4f68b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -11 2)
+		(end -11 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4a9778bc-7f3a-4735-9c66-4ee8a6473fc4")
+	)
+	(fp_line
+		(start -5 -5)
+		(end -7 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8941dfde-2c2b-4aed-91a7-1d5d9bd01b2c")
+	)
+	(fp_line
+		(start -3 -5)
+		(end -5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1cc4d6e4-0ea7-49cd-846b-d409c286fa90")
+	)
+	(fp_line
+		(start -1 -5)
+		(end -3 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "be5322f8-1efe-4772-b819-97564c67cf02")
+	)
+	(fp_line
+		(start 0 -5)
+		(end -11 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e5a265fa-89d9-46c0-b4e5-df4106633fe4")
+	)
+	(fp_line
+		(start 0 5)
+		(end -11 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b75045a-7df4-4e52-afa3-bc53dd8e26a5")
+	)
+	(fp_line
+		(start 1 -5)
+		(end -1 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c2915ed-a2d3-4bcd-8012-ade303ead862")
+	)
+	(fp_line
+		(start 3 -5)
+		(end 1 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "226fd4da-d702-4fa4-ba98-6a2be9b3ba38")
+	)
+	(fp_line
+		(start 5 -5)
+		(end 3 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0315ac98-a958-48ef-938c-614f906b32e2")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 5.5 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e10d1f3-d699-4c18-9312-4237c2cc1281")
+	)
+	(fp_line
+		(start 11 -5)
+		(end 0 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "029d509b-068d-4ca2-8de2-5addad07abe7")
+	)
+	(fp_line
+		(start 11 -5)
+		(end 11 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8faa04ba-68f3-48f1-830b-6eb0501327f3")
+	)
+	(fp_line
+		(start 11 5)
+		(end 0 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "66e88eb6-db91-4162-b521-003721dd36eb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1 0 0)
+		(layer "F.Fab")
+		(uuid "f9a67069-6fed-4238-b223-e06fc7f33791")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -11 -3)
+		(size 3.6 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9ca5904c-9242-40fe-bd43-d2bb9fbc97fe")
+	)
+	(pad "1" thru_hole oval
+		(at -11 0)
+		(size 3.6 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "37a9736b-b954-4609-ab26-99e5ff3d7ad7")
+	)
+	(pad "2" thru_hole oval
+		(at 11 0)
+		(size 3.6 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5d736347-d608-4b9e-a836-8af1803a4258")
+	)
+	(pad "2" thru_hole oval
+		(at 11 3)
+		(size 3.6 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f662fe5-6d63-4664-8443-005caeb11f24")
+	)
+)

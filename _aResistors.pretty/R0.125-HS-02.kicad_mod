@@ -15,15 +15,15 @@
 			)
 		)
 	)
-	(property "Value" "Val**"
+	(property "Value" "~"
 		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
+		(layer "F.SilkS")
 		(uuid "ef128db7-9fd4-42ea-a14d-e888cfac243b")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
+				(italic yes)
 			)
 		)
 	)

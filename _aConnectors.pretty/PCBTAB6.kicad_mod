@@ -1,4 +1,4 @@
-(footprint "PCBTAB5"
+(footprint "PCBTAB6"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -70,8 +70,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3.98 -0.405)
-		(end -3.98 0.405)
+		(start -4.5 -0.405)
+		(end -4.5 0.405)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,8 +80,8 @@
 		(uuid "f929bbf0-7bbb-4548-b606-a1b5ca9c2fd9")
 	)
 	(fp_line
-		(start -1.02 0.465)
-		(end 1.1 0.465)
+		(start -0.5 0.465)
+		(end 0.5 0.465)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -90,8 +90,8 @@
 		(uuid "88eec740-1b6d-49c4-acba-74e4a5985966")
 	)
 	(fp_line
-		(start 1.1 -0.465)
-		(end -1.02 -0.465)
+		(start 0.5 -0.465)
+		(end -0.5 -0.465)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -100,8 +100,8 @@
 		(uuid "36598333-b300-4c5f-8202-8a4bb6fce4ce")
 	)
 	(fp_line
-		(start 4.06 -0.405)
-		(end 4.06 0.405)
+		(start 4.5 -0.405)
+		(end 4.5 0.405)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -109,60 +109,22 @@
 		(layer "F.SilkS")
 		(uuid "6fe0940b-0830-4254-9269-b92b9ccedc5f")
 	)
-	(fp_line
-		(start -4.3 -1.4)
-		(end -4.3 1.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "c29df4bd-3259-4613-b783-65958d1c588f")
-	)
-	(fp_line
-		(start -4.3 -1.4)
-		(end 4.3 -1.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "0561d7f3-af29-4e6f-a94b-a3d71b50515d")
-	)
-	(fp_line
-		(start -4.3 1.4)
-		(end 4.3 1.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "ec510bb1-0a91-4d0e-8d27-9522313d85fd")
-	)
-	(fp_line
-		(start 4.3 -1.4)
-		(end 4.3 1.4)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "F.CrtYd")
-		(uuid "f69d8090-b75f-4445-9f85-f1820902a83e")
-	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole roundrect
 		(at -2.5 0)
-		(size 2.5 2.5)
-		(drill 1.5)
+		(size 3 3)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
 		(uuid "09814dc0-02c9-4985-8569-ebfd7d3fc07a")
 	)
-	(pad "1" thru_hole circle
+	(pad "1" thru_hole roundrect
 		(at 2.58 0)
-		(size 2.5 2.5)
-		(drill 1.5)
+		(size 3 3)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(roundrect_rratio 0.1)
 		(uuid "0182dd0d-e3ce-4acf-8b32-f0e2a830ddc3")
 	)
 	(model "X:/_github/kicad-footprints/_aConnectors.pretty/3d/TE_Connectivity_FASTON_PCBTabTerminal.stp"

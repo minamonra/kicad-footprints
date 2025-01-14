@@ -1,0 +1,111 @@
+(footprint "EMIF01"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Gate drain transformer")
+	(tags "Gate drain transformer")
+	(property "Reference" "REF**"
+		(at 0 -9 180)
+		(layer "F.SilkS")
+		(uuid "9532f995-2d83-4f7e-8de1-c0ce31a482ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 -9 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b8a0dca-f7cf-45ca-8244-2ac47697264c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41c73661-b772-4ffa-83a7-4662a1b8cc52")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd440358-c3c9-4d2c-ae78-1161b6690da0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3e2101b5-a80a-4ff2-8bee-c945bba385e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end -7.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "dcb60201-cd46-458e-a313-55485b32cf35")
+	)
+	(pad "1" thru_hole oval
+		(at -6.5 -7)
+		(size 3.4 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9b961577-8833-4836-8478-281a32258084")
+	)
+	(pad "2" thru_hole oval
+		(at 6.5 -7)
+		(size 3.4 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "604705ab-ce30-4bfc-bb8c-3bb1c376e84c")
+	)
+	(pad "3" thru_hole oval
+		(at -6.5 7)
+		(size 3.4 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "995bb607-98ae-4064-bed9-8eae35c1b439")
+	)
+	(pad "4" thru_hole oval
+		(at 6.5 7)
+		(size 3.4 2.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d266b6c4-be10-4fad-bd74-023c8e787d62")
+	)
+)

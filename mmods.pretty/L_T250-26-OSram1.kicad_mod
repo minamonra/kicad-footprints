@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "50e63a34-26ee-4ae0-84b1-a4e999b480a1")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -72,7 +76,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "962aee59-70f5-4725-b6ec-f8ebc82c2bca")
 	)
 	(fp_circle
@@ -83,7 +87,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "fae979d0-25aa-42da-ba1d-903ed3e142d0")
 	)
 	(fp_text user "${REFERENCE}"

@@ -190,6 +190,130 @@
 		(layer "F.SilkS")
 		(uuid "4ec24bcf-672f-42e5-ac6a-f63216ee8f7f")
 	)
+	(fp_line
+		(start -6 -3.1)
+		(end -6 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bb63b109-d501-40ff-81ca-5ea36958f1c8")
+	)
+	(fp_line
+		(start -6 5.1)
+		(end -6 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "3d61c5ff-d09f-4c64-8e14-9385358e9378")
+	)
+	(fp_line
+		(start -5.1 -6)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6af0f9b2-0122-46ba-91fe-4fd7f47c8261")
+	)
+	(fp_line
+		(start -5.1 6)
+		(end 0 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1fa29043-3be2-428f-84b0-593cdcfcdab9")
+	)
+	(fp_line
+		(start 0 -6)
+		(end 5.1 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "9e0986db-3165-4d7e-aa60-10aa24eccdfc")
+	)
+	(fp_line
+		(start 0 6)
+		(end 5.1 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8d5feae8-9c08-4a40-940e-57130568b389")
+	)
+	(fp_line
+		(start 6 -3.1)
+		(end 6 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d8a799a4-ded3-4817-9860-dc79dbca6a90")
+	)
+	(fp_line
+		(start 6 5.1)
+		(end 6 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b6feb37b-69c7-4a48-be89-8690346c92cb")
+	)
+	(fp_arc
+		(start -6 -5.1)
+		(mid -5.736396 -5.736396)
+		(end -5.1 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e0c3ccf2-1bb0-4f02-852d-f20f0b35ca9b")
+	)
+	(fp_arc
+		(start -5.1 6)
+		(mid -5.736396 5.736396)
+		(end -6 5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "d40f72bf-62c6-4c9c-aa06-389becd74f19")
+	)
+	(fp_arc
+		(start 5.1 -6)
+		(mid 5.736396 -5.736396)
+		(end 6 -5.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "eb6086d4-fc02-4442-acdb-76d3e3dba8b4")
+	)
+	(fp_arc
+		(start 6 5.1)
+		(mid 5.736396 5.736396)
+		(end 5.1 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4470d5f1-c364-4fb5-81cc-ba7ecb7feb3d")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")

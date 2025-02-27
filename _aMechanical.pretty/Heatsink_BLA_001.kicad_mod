@@ -1,0 +1,145 @@
+(footprint "Heatsink_BLA_001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Heatsink, 100x16x38mm")
+	(tags "heatsink")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "37de10bb-e9cd-4c19-8f56-848e88f91d9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Heatsink_BLA_001"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "dc297235-19a1-474e-8bf2-a438d69eaf0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7c923d1-06c8-4771-8c83-5733723e25ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c5df015-e413-438b-b4ad-44a05776e7c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -50 0)
+		(end -40 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d35f28d7-d296-4c78-873a-7bd9d5aa30cc")
+	)
+	(fp_line
+		(start -25 8)
+		(end -25 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4818cf10-d0c6-4bd9-b571-760a3261235c")
+	)
+	(fp_line
+		(start 25 8)
+		(end 25 -8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c052210-5f43-4acb-9dba-7ecf8cdd58e0")
+	)
+	(fp_line
+		(start 40 0)
+		(end 50 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "50235c4c-83a0-45d5-a54e-f70efd3ebb83")
+	)
+	(fp_rect
+		(start -50 -8)
+		(end 50 8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a8a23bcb-20e1-4933-a7b6-6dd068d6188d")
+	)
+	(fp_rect
+		(start -50 -7.9)
+		(end 50 7.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "acb2696b-ebab-4012-87f3-3176d83b74c7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4821fcfa-db6e-4e38-bbbb-92ed91d05c28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -40 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(uuid "6846cbed-5784-4677-9847-19107d00c49b")
+	)
+	(pad "" np_thru_hole circle
+		(at 40 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.SilkS" "*.Mask")
+		(uuid "853723fe-b20c-4c71-9b2b-da837035c89e")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,184 @@
+(footprint "Pot_RM-063"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "Potentiometer Trimmer RM-063")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "1d7486a1-974d-491c-a3b5-370dc3713308")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RM-063"
+		(at -1.5 8 0)
+		(layer "F.Fab")
+		(uuid "143ef139-42b8-4dd7-9941-a4303cd5774e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.53 -0.53 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52622dba-db01-415c-a777-af73fe396955")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.53 -0.53 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "699e0974-6ea5-48ad-880d-4f9c52a3ecbf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.5 -2.9)
+		(end -3.5 -1.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d16fc3c-ff76-4fc3-ad0e-cbda4db85845")
+	)
+	(fp_line
+		(start -3.5 -2.9)
+		(end 3.4 -2.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cee8bac1-a0d3-4cfe-b4b6-7adcd8881f0f")
+	)
+	(fp_line
+		(start -3.5 3.2)
+		(end -3.5 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4893da96-e30f-41bd-8040-569de4797fa9")
+	)
+	(fp_line
+		(start -1.2 3.2)
+		(end -3.5 3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9cfa8563-c8c1-4bce-99d6-1af9065780be")
+	)
+	(fp_line
+		(start 3.4 -2.9)
+		(end 3.4 -1.9)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a239ba4-f337-4962-b7c1-9e3402c21a0b")
+	)
+	(fp_line
+		(start 3.4 3.2)
+		(end 1.1 3.2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3887f4dc-bb00-4d89-a7f2-4486d40b80bc")
+	)
+	(fp_line
+		(start 3.4 3.2)
+		(end 3.4 0.7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9eea8c7-1193-488a-abdb-6d5695d56c63")
+	)
+	(fp_rect
+		(start -3.5 -2.9)
+		(end 3.4 3.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b0cff48e-26ca-4cca-95dd-e2e0e3c8359b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.5 9.5 0)
+		(layer "F.Fab")
+		(uuid "b833c4df-8f6d-468b-8e48-bf86617b4132")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.53 -0.53)
+		(size 2 2.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "17702e26-973d-4f8c-96c0-f27ff6befa16")
+	)
+	(pad "2" thru_hole oval
+		(at -0.03 1.97)
+		(size 2 2.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "deed6323-7175-4d4f-a6a0-f5950b0ee63d")
+	)
+	(pad "3" thru_hole oval
+		(at 2.47 -0.53)
+		(size 2 2.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3ce64113-c334-4e25-a9fa-e68997e3ac80")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Runtron_RM-063_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

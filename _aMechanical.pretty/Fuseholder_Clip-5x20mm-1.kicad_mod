@@ -1,7 +1,7 @@
 (footprint "Fuseholder_Clip-5x20mm-1"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Fuseholder Clips, 5x20mm Cylinder Fuse, Pins Inline, Horizontal, Littelfuse 100, https://m.littelfuse.com/~/media/electronics/datasheets/fuse_clips/littelfuse_fuse_clip_100_445_030_520_datasheet.pdf.pdf")
 	(tags "fuse clip open")
@@ -24,19 +24,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at -11.5 -9.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "0c3d9a3b-fc21-4695-aa4b-3e24fd1d2932")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -222,7 +209,7 @@
 	(pad "1" thru_hole roundrect
 		(at -10 0)
 		(size 3 3)
-		(drill oval 1.2 2)
+		(drill oval 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -231,7 +218,7 @@
 	(pad "1" thru_hole roundrect
 		(at -5 0)
 		(size 3 3)
-		(drill oval 1.2 2)
+		(drill oval 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -240,7 +227,7 @@
 	(pad "2" thru_hole roundrect
 		(at 5 0)
 		(size 3 3)
-		(drill oval 1.2 2)
+		(drill oval 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
@@ -249,12 +236,13 @@
 	(pad "2" thru_hole roundrect
 		(at 10 0)
 		(size 3 3)
-		(drill oval 1.2 2)
+		(drill oval 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.25)
 		(uuid "5face3f6-1235-4d54-baad-446f38241f53")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuseholder_Clip-5x20mm_Littelfuse_100_Inline_P20.50x4.60mm_D1.30mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)

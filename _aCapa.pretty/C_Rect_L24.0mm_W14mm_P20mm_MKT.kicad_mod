@@ -1,0 +1,107 @@
+(footprint "C_Rect_L24.0mm_W14mm_P20mm_MKT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Rect series, Radial, pin pitch=22.50mm, , length*width=24*8.6mm^2, Capacitor, https://en.tdk.eu/inf/20/20/db/fc_2009/MKT_B32560_564.pdf")
+	(tags "C Rect series Radial pin pitch 22.50mm  length 24mm width 8.6mm Capacitor")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b3553e1b-0b15-48cd-922b-c2616c37a023")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_Rect_L24.0mm_W14mm_P20mm_MKT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2e5f36f5-3d76-4287-a9f6-84b8280a4dc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b26ede19-5a09-45f4-bc8f-10c86f7c830b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8b8efee6-ca06-4746-bfa8-b54d629b4f5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12 -7)
+		(end 12 7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "379ad315-5ee2-4970-89d6-c10c2a131280")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "fb20e67d-1c1a-4196-b548-b4fe0e462c8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8190b53f-aa61-4da7-aba4-fc4d12131d87")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5fefecbb-f4b8-4ae4-a837-4c8b1ca68cfe")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Rect_L24.0mm_W8.6mm_P22.50mm_MKT.wrl"
+		(offset
+			(xyz -10 0 0)
+		)
+		(scale
+			(xyz 0.89 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

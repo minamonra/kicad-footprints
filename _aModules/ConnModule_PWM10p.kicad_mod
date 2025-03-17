@@ -845,6 +845,22 @@
 		(remove_unused_layers no)
 		(uuid "f634d212-2616-4358-94a0-913e8b59c804")
 	)
+	(pad "11" thru_hole oval
+		(at 13.97 -0.0312 90)
+		(size 3 2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8bc664b-be70-49e4-87cd-c073caa73073")
+	)
+	(pad "12" thru_hole oval
+		(at 16.51 0 90)
+		(size 3 2)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a922432e-a50d-4a2c-a590-879ad6b87031")
+	)
 	(embedded_fonts no)
 	(model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x10_P2.54mm_Horizontal.wrl"
 		(offset

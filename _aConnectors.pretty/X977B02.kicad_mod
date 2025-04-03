@@ -1,0 +1,364 @@
+(footprint "X977B02"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "X977B04 (DG25C-B-04P), Клеммник 4-контактный шаг 7.62мм")
+	(tags "клеммник барьерный винтовой")
+	(property "Reference" "REF**"
+		(at 0 -5.35 0)
+		(layer "F.SilkS")
+		(uuid "44aade07-f7ec-4eb6-bd0c-6623d1188af5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -3.81 4.953 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c9648c6-09f1-428b-b410-fef6fbed9b51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e57a41e2-f3c3-485d-8d4b-b2184c93604c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -3.81 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07a5ee91-c428-4a6b-8c09-f0757d2905ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.62 -3.81)
+		(end 7.62 -3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4335ed2a-a7e9-4744-a5fc-cd79cd671185")
+	)
+	(fp_line
+		(start -7.62 0)
+		(end -7.62 -3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "caac97c5-df86-4b4f-ac3a-c337f8610ea3")
+	)
+	(fp_line
+		(start -7.62 3.81)
+		(end -7.62 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69b33c65-4c2b-4e3b-b127-cc72a69abfdb")
+	)
+	(fp_line
+		(start -7.62 3.81)
+		(end 7.62 3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5f03697f-874b-4d61-b2a2-07ed8b0d216f")
+	)
+	(fp_line
+		(start -6.35 -1.905)
+		(end -5.588 -1.143)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "602432a1-98ca-480f-bc37-8727b2ab0398")
+	)
+	(fp_line
+		(start -5.842 -2.413)
+		(end -5.08 -1.651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a35bea2f-586f-419f-b585-fb90b97e9888")
+	)
+	(fp_line
+		(start -2.54 1.651)
+		(end -1.778 2.413)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "766dd63a-b9c5-43a0-bb06-2e89930c161e")
+	)
+	(fp_line
+		(start -2.032 1.143)
+		(end -1.27 1.905)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "136bba0f-5782-41c9-afc7-2ec4e4e9a75c")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3061b921-a9a5-410c-8647-afdb50d8b612")
+	)
+	(fp_line
+		(start 0 3.81)
+		(end 0 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "126742e5-352f-4cf9-8612-319ba061fc7c")
+	)
+	(fp_line
+		(start 1.27 -1.905)
+		(end 2.032 -1.143)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "906e6017-a3de-43b9-98e9-24b95c93c211")
+	)
+	(fp_line
+		(start 1.778 -2.413)
+		(end 2.54 -1.651)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7da2e97f-36b1-4913-a256-b0f395e103b7")
+	)
+	(fp_line
+		(start 5.08 1.651)
+		(end 5.842 2.413)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "18819eac-f37f-4f88-ae85-dd09d5922648")
+	)
+	(fp_line
+		(start 5.588 1.143)
+		(end 6.35 1.905)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "60237c4e-be9a-4cec-9155-d4b9b6db539c")
+	)
+	(fp_line
+		(start 7.62 0)
+		(end 7.62 -3.81)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e9e6e4e-3d83-42c8-ae54-a807f4d11323")
+	)
+	(fp_line
+		(start 7.62 3.81)
+		(end 7.62 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae136566-dde5-40ca-836b-1a42b07f7ee7")
+	)
+	(fp_circle
+		(center -3.81 0)
+		(end -2 0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "29ab1bdf-4084-4736-97a1-34da47cd11b8")
+	)
+	(fp_circle
+		(center -3.81 0)
+		(end -1.905 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "294dcdeb-7d12-4ad2-897b-7962b6b0f462")
+	)
+	(fp_circle
+		(center 3.8 -0.01276)
+		(end 5.61 0.08724)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8c591fdf-06e3-4b9e-8300-9887811308b7")
+	)
+	(fp_circle
+		(center 3.81 0)
+		(end 5.715 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "32f46fe1-45cf-4280-90ef-05f7b2c192a4")
+	)
+	(fp_line
+		(start -7.747 -3.937)
+		(end 7.74 -3.95)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5068a7f-0d74-4fef-80c3-95e62b619c3c")
+	)
+	(fp_line
+		(start -7.747 3.937)
+		(end -7.747 -3.937)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "844f5309-e707-4c34-a4b0-ec4da3841541")
+	)
+	(fp_line
+		(start 7.74 -3.95)
+		(end 7.74 3.937)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5d1e0bc-663b-467c-9376-25809ea37db1")
+	)
+	(fp_line
+		(start 7.74 3.937)
+		(end -7.747 3.937)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "154add0f-fb57-4df9-a635-128ebc75bd12")
+	)
+	(fp_text user "https://www.chipdip.ru/product/x977b04"
+		(at 0 11.684 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3d50c935-5917-439d-a678-322d3fd0c4ec")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "https://static.chipdip.ru/lib/537/DOC008537643.pdf"
+		(at 0 9.652 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "bcbb6eae-6c7f-44a2-bdec-eed360372aba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "https://static.chipdip.ru/lib/054/DOC000054719.pdf"
+		(at 0 7.62 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "db2e8377-69f6-483f-ae66-13db74698011")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09814dc0-02c9-4985-8569-ebfd7d3fc07a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 3 3)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2472a169-d624-4a5e-ab4e-655aff425bb2")
+	)
+	(embedded_fonts no)
+	(model "X:/_github/kicad-footprints/_aConnectors.pretty/3d/TE_Connectivity_FASTON_PCBTabTerminal.stp"
+		(offset
+			(xyz 2.5 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

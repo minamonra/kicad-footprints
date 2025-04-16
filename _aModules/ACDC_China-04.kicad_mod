@@ -1,10 +1,11 @@
-(footprint "ACDC_China-03"
+(footprint "ACDC_China-04"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(tags "Interest Maker AC-DC")
 	(property "Reference" "REF**"
-		(at 0 -11 180)
+		(at -0.02 0 180)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "c6ebdb7a-32a8-4c4f-8689-abd972dc1b16")
@@ -15,8 +16,8 @@
 			)
 		)
 	)
-	(property "Value" "ACDC_China-03"
-		(at 0.02 -11 180)
+	(property "Value" "ACDC_China-04"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "f894cdc1-945b-4fbc-986f-86f9ad74f771")
 		(effects
@@ -27,7 +28,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 15.96 -9.5 90)
+		(at 0.46 -5 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -40,7 +41,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 15.96 -9.5 90)
+		(at 0.46 -5 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,8 +55,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -3 -14)
-		(end 33 -14)
+		(start -19 -7.5)
+		(end 18 -7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -64,8 +65,8 @@
 		(uuid "46917ac4-4067-4607-806d-22dc4d943653")
 	)
 	(fp_line
-		(start -3 4)
-		(end -3 -14)
+		(start -19 7.5)
+		(end -19 -7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -74,8 +75,8 @@
 		(uuid "b5bc5128-9b50-4372-b288-593c04680d46")
 	)
 	(fp_line
-		(start -3 4)
-		(end 33 4)
+		(start -19 7.5)
+		(end 18 7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -84,8 +85,8 @@
 		(uuid "4b19b97f-bec3-4ba3-bb53-0e8aba264cfe")
 	)
 	(fp_line
-		(start 33 -14)
-		(end 33 4)
+		(start 18 -7.5)
+		(end 18 7.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -94,7 +95,7 @@
 		(uuid "42aff7a8-0d07-41bc-b618-d5c0b5d82c27")
 	)
 	(fp_text user "GND"
-		(at 31 -2 90)
+		(at 15.5 2.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4c84a8d8-e8a0-4d25-949a-7eabff6b1dc6")
@@ -107,7 +108,7 @@
 		)
 	)
 	(fp_text user "AC"
-		(at 0.5 -2 90)
+		(at -15 2.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "8b1a6fe7-0de5-4583-a731-055d4314e300")
@@ -120,7 +121,7 @@
 		)
 	)
 	(fp_text user "VCC"
-		(at 28.5 -2 90)
+		(at 13 2.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c3f9d1b8-1af1-4c69-8e19-c95380f360d1")
@@ -133,7 +134,7 @@
 		)
 	)
 	(fp_text user "AC"
-		(at 5.5 -2 90)
+		(at -10 2.5 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "fa3190d8-2eca-4c66-9b2a-b2ec929f00cd")
@@ -146,7 +147,7 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0.02 -11 180)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "6d53c527-22ce-4fe1-8543-4cf0f8ae1b7f")
 		(effects
@@ -157,7 +158,7 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at 0 0 90)
+		(at -15.5 4.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
@@ -165,7 +166,7 @@
 		(uuid "0ab06a4a-91ed-40ce-9c42-ef4486b38ab9")
 	)
 	(pad "2" thru_hole oval
-		(at 5 0 90)
+		(at -10.5 4.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
@@ -173,7 +174,7 @@
 		(uuid "f0a29109-bd4e-4ee7-a575-293ddceeca6b")
 	)
 	(pad "3" thru_hole oval
-		(at 28 0 90)
+		(at 12.5 4.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
@@ -181,7 +182,7 @@
 		(uuid "5ea8475c-5142-4dba-adff-072ca3d508e9")
 	)
 	(pad "4" thru_hole oval
-		(at 30.5 0 90)
+		(at 15 4.5 90)
 		(size 2.4 2)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")

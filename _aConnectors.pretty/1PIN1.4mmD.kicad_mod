@@ -1,19 +1,86 @@
-(footprint "1PIN1.4mmD" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "2 mm drill 1 pin (wire)")
-  (fp_text reference "REF**" (at 0 -3) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3458d131-b759-4533-8626-f72a08afe6fd)
-  )
-  (fp_text value "" (at 2.35 3.1) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp c766c52d-a3bb-40bc-bac7-dd827d4f0674)
-  )
-  (fp_text user "~" (at 0 -2) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 3f94a425-e945-4d00-9ced-a9842a7b1d5b)
-  )
-  (fp_circle (center 0 0) (end 1.4 0)
-    (stroke (width 0.1) (type default)) (fill none) (layer "F.SilkS") (tstamp 75e768d9-05ca-46ab-85b4-b4129ccf1536))
-  (pad "1" thru_hole circle (at 0 0) (size 2.2 2.2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 97c442d1-4007-4a7e-83cb-43e75cbce343))
+(footprint "1PIN1.4mmD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2 mm drill 1 pin (wire)")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "3458d131-b759-4533-8626-f72a08afe6fd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 2.35 3.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c766c52d-a3bb-40bc-bac7-dd827d4f0674")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d898ca06-195d-4249-b039-f6aeb3b38388")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "535ddb36-19aa-48d9-9afd-26922879fc05")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "75e768d9-05ca-46ab-85b4-b4129ccf1536")
+	)
+	(fp_text user "~"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f94a425-e945-4d00-9ced-a9842a7b1d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.6 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "97c442d1-4007-4a7e-83cb-43e75cbce343")
+	)
+	(embedded_fonts no)
 )

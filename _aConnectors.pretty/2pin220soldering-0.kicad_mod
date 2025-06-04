@@ -1,0 +1,96 @@
+(footprint "2pin220soldering-0"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "92705948-3eb2-4ece-8b0d-039e866e43c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2pin220soldering-0"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ea16881a-e489-47ed-87f4-578a4939f428")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "650896d6-6cb6-4e48-b5dc-687abd62adea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c935f4d8-8317-4e9b-83b8-788a69b3fe86")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.5 -3)
+		(end 5.5 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a3e99662-d304-4bd7-874c-7aac383b89b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e2c7512d-d777-4d8c-8850-a8cfd9492406")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3 0)
+		(size 3 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.119048)
+		(uuid "e1d86bf6-5fe2-46ae-a7e9-37783a37fcc3")
+	)
+	(pad "2" thru_hole roundrect
+		(at 3 0)
+		(size 3 4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.119047619)
+		(uuid "9daf1904-c3c9-4669-98dc-3ef4c620ed67")
+	)
+	(embedded_fonts no)
+)

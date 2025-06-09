@@ -188,15 +188,6 @@
 		(thermal_bridge_angle 45)
 		(uuid "ec50fab9-18f0-427a-aa8b-35060274f755")
 	)
-	(pad "5" thru_hole oval
-		(at 7.5 11)
-		(size 4 4)
-		(drill 2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(thermal_bridge_angle 45)
-		(uuid "1d0a61ed-2185-4f72-b9bc-9ce3a1887ea2")
-	)
 	(pad "6" thru_hole oval
 		(at 12.5 11)
 		(size 4 4)

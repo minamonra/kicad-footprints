@@ -51,7 +51,7 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -7 -3.692893)
+		(start -7 -4.892893)
 		(end -7 2.266666)
 		(stroke
 			(width 0.12)
@@ -62,7 +62,7 @@
 	)
 	(fp_line
 		(start -7 2.266666)
-		(end -7 3.692893)
+		(end -7 4.892894)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -71,8 +71,18 @@
 		(uuid "73899bdc-9839-49b1-91be-fc603ac772e5")
 	)
 	(fp_line
-		(start -6 4.692893)
-		(end 6 4.692893)
+		(start -6.000001 -5.892893)
+		(end -2.2 -5.892893)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ca061ba-37e7-48a1-b2c6-483843c11f90")
+	)
+	(fp_line
+		(start -6.000001 5.892893)
+		(end 5.992891 5.892889)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -80,30 +90,10 @@
 		(layer "F.SilkS")
 		(uuid "9e60ddc7-c5ca-476c-97e0-d9816b92247b")
 	)
-	(fp_line
-		(start 6 -4.692893)
-		(end -6 -4.692893)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "6b48be3a-129b-486f-8af3-68e3772576e5")
-	)
-	(fp_line
-		(start 7 3.6)
-		(end 7 -3.69289)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0c72f782-f6a3-4f05-8636-cc9e0e1e767a")
-	)
 	(fp_arc
-		(start -7 -3.692893)
-		(mid -6.707107 -4.4)
-		(end -6 -4.692893)
+		(start -7 -4.892893)
+		(mid -6.707107 -5.6)
+		(end -6 -5.892893)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -112,9 +102,9 @@
 		(uuid "56c54191-5b60-49c4-86a3-7c0d4ee104b4")
 	)
 	(fp_arc
-		(start -6 4.692893)
-		(mid -6.707107 4.4)
-		(end -7 3.692893)
+		(start -6 5.892893)
+		(mid -6.707107 5.6)
+		(end -7 4.892893)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -123,20 +113,9 @@
 		(uuid "c2d73fcc-985c-4f64-9fb8-6d2eee9f8757")
 	)
 	(fp_arc
-		(start 6 -4.692893)
-		(mid 6.707107 -4.4)
-		(end 7 -3.692893)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "f8f2e808-273e-40a1-8b7a-c67e90bb6a37")
-	)
-	(fp_arc
-		(start 7 3.692893)
-		(mid 6.707109 4.400004)
-		(end 6 4.692893)
+		(start 6.992891 4.892889)
+		(mid 6.7 5.6)
+		(end 5.992891 5.892889)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -145,7 +124,7 @@
 		(uuid "184f5089-b98d-4717-805a-f690be324080")
 	)
 	(pad "1" thru_hole circle
-		(at -5 3)
+		(at -5 4.1)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -153,7 +132,7 @@
 		(uuid "1ec778a7-27d7-4fd0-ae63-67d0ded07a36")
 	)
 	(pad "2" thru_hole circle
-		(at -5 -3)
+		(at -5 -4.1)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -161,7 +140,7 @@
 		(uuid "c0cd4a72-56df-4f48-a701-75cd09f1ed34")
 	)
 	(pad "3" thru_hole circle
-		(at 5 -3)
+		(at 5 -3.7)
 		(size 2.2 2.2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -169,7 +148,7 @@
 		(uuid "dd5c64d1-c79d-4908-8f00-bd5b11b2326f")
 	)
 	(pad "4" thru_hole circle
-		(at 5 3)
+		(at 5 3.7)
 		(size 2.2 2.2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")

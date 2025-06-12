@@ -1,0 +1,176 @@
+(footprint "R0.5-HS-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "резистор ручная пайка")
+	(property "Reference" "R"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "8458f273-23e8-40fd-94d5-7cf5bfcd77b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ef128db7-9fd4-42ea-a14d-e888cfac243b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(italic yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -5.08 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1adf6bc3-366c-4705-a09a-95a0785e196f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6c9588c-374c-4bef-be17-9fab030240b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.5 -2.25)
+		(end 0 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47cad7ca-8102-4a03-872a-cdbee40d84e7")
+	)
+	(fp_line
+		(start -5.5 0)
+		(end -5.5 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6682858b-92d2-468a-8d32-30a8bf927683")
+	)
+	(fp_line
+		(start -5.5 2.25)
+		(end -5.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fd27306-96d3-4e1d-9acf-5ff0fba79a87")
+	)
+	(fp_line
+		(start -5.5 2.25)
+		(end 0 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9ea8734-c17a-4824-a30c-7cb767ecba04")
+	)
+	(fp_line
+		(start 0 -2.25)
+		(end 5.5 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c347328c-4bcb-4b9e-b785-90473c47a829")
+	)
+	(fp_line
+		(start 0 2.25)
+		(end 5.5 2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec7b3059-2e68-4ac1-9cc7-7b790e8711a8")
+	)
+	(fp_line
+		(start 5.5 0)
+		(end 5.5 -2.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d1e28bcc-25fe-45dd-925a-516f27da4af9")
+	)
+	(fp_line
+		(start 5.5 2.25)
+		(end 5.5 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7e90eb58-c31f-4d2d-b91e-ff415aae64a2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "140e66f3-74f4-48ac-8e61-d331fa034849")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -7.25 0)
+		(size 2 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7bac7144-f2e5-445b-8522-9053205c3d1c")
+	)
+	(pad "2" thru_hole oval
+		(at 7.25 0)
+		(size 2 1.8)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "375a93b7-37a4-4bd9-8790-110b49ce3e27")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(offset
+			(xyz -5 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

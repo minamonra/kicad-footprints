@@ -56,6 +56,36 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -20 -2)
+		(end -20 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0d5cc929-50de-496b-a8b2-397a56800a75")
+	)
+	(fp_line
+		(start -20 2)
+		(end -17.7 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b190ef01-8788-45d1-80e6-6ab167919e9f")
+	)
+	(fp_line
+		(start -17.6 -2)
+		(end -20 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "19318699-9bf6-43bd-b13a-814e75c352d7")
+	)
+	(fp_line
 		(start -8 -2)
 		(end -8 2)
 		(stroke
@@ -75,16 +105,55 @@
 		(layer "F.SilkS")
 		(uuid "b3780803-0229-481e-b8aa-3eb17da16103")
 	)
-	(fp_rect
-		(start -20 -2)
+	(fp_line
+		(start 14.6 -2)
+		(end -14.7 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1ab1b515-6334-448c-917f-5cd80dc36c29")
+	)
+	(fp_line
+		(start 14.6 2)
+		(end -14.6 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4e4eea0c-7cff-439e-9abe-1902a1e4a72c")
+	)
+	(fp_line
+		(start 17.2 -2)
+		(end 20 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "584a60f1-cb34-47da-b029-300059891285")
+	)
+	(fp_line
+		(start 20 -2)
 		(end 20 2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "8133da73-8bc7-47e5-93a8-60662e8640dd")
+		(uuid "a566ecf3-ac4b-4449-9765-fa0bea1a8429")
+	)
+	(fp_line
+		(start 20 2)
+		(end 17.2 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7fffb8f4-5d19-4c95-9458-68e62a1dd7ff")
 	)
 	(fp_line
 		(start -40 -2)
@@ -248,20 +317,22 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
+	(pad "~" thru_hole oval
 		(at -16 0)
 		(size 4.4 3.9)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 0)
 		(uuid "92a9f260-c720-4e45-8325-2a9ae2e4a6e9")
 	)
-	(pad "1" thru_hole oval
+	(pad "~" thru_hole oval
 		(at 16 0)
 		(size 4.4 3.9)
 		(drill 1.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
+		(zone_connect 0)
 		(uuid "a93b531f-7a27-4aaf-a809-dda135e12ce1")
 	)
 	(embedded_fonts no)

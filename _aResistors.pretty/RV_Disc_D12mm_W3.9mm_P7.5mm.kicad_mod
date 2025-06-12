@@ -1,0 +1,136 @@
+(footprint "RV_Disc_D12mm_W3.9mm_P7.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Varistor, diameter 12mm, width 3.9mm, pitch 7.5mm")
+	(tags "varistor SIOV")
+	(property "Reference" "REF**"
+		(at 0 3.65 0)
+		(layer "F.SilkS")
+		(uuid "f0da655f-92dd-450f-bf25-b98714c2445b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RV_Disc_D12mm_W3.9mm_P7.5mm"
+		(at 0 -2.25 0)
+		(layer "F.Fab")
+		(uuid "4ed5b62d-7556-48bd-9502-0e1f1a536194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d3ab8da-524b-4d84-a459-cba88818f1c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95ce6f09-ef71-4f0f-bd00-5dc8df3c9e54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6 -1.95)
+		(end -6 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b27613b6-eaea-4f67-ba32-218b878420dc")
+	)
+	(fp_line
+		(start -6 -1.95)
+		(end 6 -1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3850b183-790b-4279-87e2-6fc1dc656152")
+	)
+	(fp_line
+		(start -6 1.95)
+		(end 6 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03346d9d-d4bd-4dfc-8af1-9465b9c71663")
+	)
+	(fp_line
+		(start 6 -1.95)
+		(end 6 1.95)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2050e325-65de-42a2-9ea7-739e88ce5d9f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.7 0)
+		(layer "F.Fab")
+		(uuid "9599fe13-577d-4840-89cf-99bd36ccf44e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.4 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b7024213-5a64-4aec-9d66-d5ddbdb30ae6")
+	)
+	(pad "2" thru_hole circle
+		(at 3.3 0)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9a148006-32d6-4978-bd5c-e6ea66026174")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D12mm_W3.9mm_P7.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

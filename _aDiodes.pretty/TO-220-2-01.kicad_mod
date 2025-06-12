@@ -1,0 +1,164 @@
+(footprint "TO-220-2-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TO-220-2, Vertical, RM 5.08mm, see https://www.centralsemi.com/PDFS/CASE/TO-220-2PD.PDF")
+	(tags "TO-220-2 Vertical RM 5.08mm")
+	(property "Reference" "REF**"
+		(at -0.02 -4.27 0)
+		(layer "F.SilkS")
+		(uuid "6ed80230-774c-4879-85ae-f67f1afea89b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TO-220-2-01"
+		(at -0.02 2.5 0)
+		(layer "F.Fab")
+		(uuid "c000bb06-228b-441d-b854-021fc58158d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.56 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4c65563e-9eaa-4dd7-95e4-89c4f19264ac")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.56 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "244b7375-0ddf-43dc-9f14-f0710f8e4a42")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.14 -2.27)
+		(end -5.14 1.601)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bef0a1cf-0f8c-4c29-b8f7-188c09292ab1")
+	)
+	(fp_line
+		(start -5.14 -2.27)
+		(end 5.1 -2.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f43f1ae7-a759-45dc-a13c-bea05851dd3d")
+	)
+	(fp_line
+		(start -5.14 -1.53)
+		(end 5.1 -1.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "615066c7-6fca-41d9-86ec-0db36f33e0de")
+	)
+	(fp_line
+		(start -5.14 1.6)
+		(end 5.1 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73d54023-f656-4068-a0c0-fea3a21fd2cc")
+	)
+	(fp_line
+		(start -1.87 -2.27)
+		(end -1.87 -1.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f495b9c-e583-4fb5-a7fe-de9b713418d6")
+	)
+	(fp_line
+		(start 1.825 -2.27)
+		(end 1.831 -1.53)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "46e125f9-d408-4da8-8777-c348e251ba5d")
+	)
+	(fp_line
+		(start 5.1 -2.27)
+		(end 5.1 1.601)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75cb68bb-907a-4a7c-b1c2-506776eb9d96")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.02 -4.27 0)
+		(layer "F.Fab")
+		(uuid "d8ef2b1e-aaf0-4806-964e-fa4268ed87c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.56 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e14c1b5c-a668-425d-9f46-9b43c7bf2504")
+	)
+	(pad "2" thru_hole circle
+		(at 2.52 0)
+		(size 2.5 2.5)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64ed706c-1aa8-4130-bf1c-278a982ef1f9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-2_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

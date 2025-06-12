@@ -55,6 +55,46 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -34 -2)
+		(end -34 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "20ab2682-3b10-4b9f-89a6-da9357329d16")
+	)
+	(fp_line
+		(start -34 2)
+		(end -31 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "75381b7b-27b0-445e-9a2f-47b292317b9b")
+	)
+	(fp_line
+		(start -31 -2)
+		(end -34 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "df92334b-8102-44b4-a090-b67add1a91c4")
+	)
+	(fp_line
+		(start -27 -2)
+		(end 19 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44d2fed9-c90f-4a6f-9dca-4e70e8b248ea")
+	)
+	(fp_line
 		(start -19.5 2)
 		(end -19.5 -2)
 		(stroke
@@ -85,6 +125,26 @@
 		(uuid "290d9441-bd71-44d6-8702-f992fbaa07df")
 	)
 	(fp_line
+		(start 19 2)
+		(end -27 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cbca9f80-5efb-47d2-8426-a1b809aceceb")
+	)
+	(fp_line
+		(start 24 -2)
+		(end 38 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a525a1c6-164e-49e7-8e3d-4edb188219ea")
+	)
+	(fp_line
 		(start 29 -2)
 		(end 29 2)
 		(stroke
@@ -94,16 +154,25 @@
 		(layer "F.SilkS")
 		(uuid "2cb47c2e-9c03-4ad3-920c-2d33f9be9555")
 	)
-	(fp_rect
-		(start -34 -2)
+	(fp_line
+		(start 38 -2)
 		(end 38 2)
 		(stroke
 			(width 0.1)
-			(type solid)
+			(type default)
 		)
-		(fill no)
 		(layer "F.SilkS")
-		(uuid "de631d5c-e062-4f72-b06f-437d067ebdba")
+		(uuid "a59d4d73-566a-4299-8e34-14713714d638")
+	)
+	(fp_line
+		(start 38 2)
+		(end 24 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d337e80-79a5-4470-80c3-c0785502a606")
 	)
 	(fp_line
 		(start -34 2)
@@ -237,7 +306,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
+	(pad "~" thru_hole oval
 		(at -29 0)
 		(size 4.4 3.9)
 		(drill 1.9)
@@ -245,7 +314,7 @@
 		(remove_unused_layers no)
 		(uuid "92a9f260-c720-4e45-8325-2a9ae2e4a6e9")
 	)
-	(pad "1" thru_hole oval
+	(pad "~" thru_hole oval
 		(at 22 0)
 		(size 4.4 3.9)
 		(drill 1.9)

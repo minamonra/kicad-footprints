@@ -1,0 +1,236 @@
+(footprint "D_5W_P12.70_Pr"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, 5W series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=8.9*3.7mm^2, , http://www.diodes.com/_files/packages/8686949.gif")
+	(tags "Diode 5W series Axial Horizontal pin pitch 12.7mm  length 8.9mm diameter 3.7mm")
+	(property "Reference" "REF**"
+		(at 0.03 -2.97 0)
+		(layer "F.SilkS")
+		(uuid "d3d3f606-d4ac-4695-9e81-ce2cabfabbcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_5W_P12.70_Pr"
+		(at 0.03 2.97 0)
+		(layer "F.Fab")
+		(uuid "1761e8f5-0754-479c-b3b5-5e56c3140d00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -6.32 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "173972c9-f6d4-484b-b61c-6d3545203a30")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -6.32 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "523d5ba3-1cc6-49da-9dc7-ff5b5529d1a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.68 0)
+		(end -4.54 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2e6d6b50-fb9b-4ecf-8cf5-4ad855812371")
+	)
+	(fp_line
+		(start -4.54 -1.97)
+		(end -4.54 1.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbc35f49-2c91-44ef-a16a-68729d5ce188")
+	)
+	(fp_line
+		(start -4.54 1.97)
+		(end 4.6 1.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e923b9cc-8727-4f87-a2a5-524bf0d51582")
+	)
+	(fp_line
+		(start -3 -0.025)
+		(end -2 -0.025)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "165d21ca-9fa7-4818-b737-513339e5351e")
+	)
+	(fp_line
+		(start -2 -1.275)
+		(end 0 -0.025)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1371562b-c622-45a3-a860-3c162e113c06")
+	)
+	(fp_line
+		(start -2 1.225)
+		(end -2 -1.275)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "988b4d7f-f7e7-487c-a5db-8a65fc0d7715")
+	)
+	(fp_line
+		(start -2 1.225)
+		(end 0 -0.025)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b85efcf6-83ef-49dc-bf41-e30846b171eb")
+	)
+	(fp_line
+		(start 0 -0.025)
+		(end 2 -1.275)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afd24c19-b679-436c-8666-9b1fb4681561")
+	)
+	(fp_line
+		(start 0 -0.025)
+		(end 2 1.225)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab671f1a-7960-4cd1-9d3f-2a832d251b7f")
+	)
+	(fp_line
+		(start 2 -0.025)
+		(end 3 -0.025)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d94f8ee1-1507-4401-868a-c520455d63b6")
+	)
+	(fp_line
+		(start 2 1.225)
+		(end 2 -1.275)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "717dfca7-df63-4bec-83b5-b438e47b1454")
+	)
+	(fp_line
+		(start 4.6 -1.97)
+		(end -4.54 -1.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5586676d-41d3-4a78-a857-157d7683c5d4")
+	)
+	(fp_line
+		(start 4.6 1.97)
+		(end 4.6 -1.97)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a50fca8f-5546-46e7-8260-ec42f160a1d2")
+	)
+	(fp_line
+		(start 4.74 0)
+		(end 4.6 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c722f1b-7500-43e8-92b8-020fc633cf10")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.6975 0 0)
+		(layer "F.Fab")
+		(uuid "f2830cfd-40d6-4c74-9800-691fe492a8e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -6.32 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "db6e95d6-de2d-4fa5-98ad-6175c478aa8c")
+	)
+	(pad "2" thru_hole oval
+		(at 6.38 0)
+		(size 2.8 2.8)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9f88daf4-2c31-4992-b1a4-692fd7c9f7b6")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_5W_P12.70mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

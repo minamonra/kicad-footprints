@@ -1,0 +1,160 @@
+(footprint "SW_OnOff_pl"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Switch, single pole double throw, right angle, http://www.nkkswitches.com/pdf/GW.pdf")
+	(tags "switch single-pole double-throw spdt ON-ON horizontal")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "fcb718fe-f6c1-4880-8962-3fcc9b1180ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_OnOff_pl"
+		(at 0 10.75 0)
+		(layer "F.Fab")
+		(uuid "c06ac22c-623c-48c2-a9c3-2be415211076")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c2d3606-244f-48ea-8f31-e5264912ddd0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "741ccee8-bc6f-463f-8b1b-5138aecebfe0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 0)
+		(end -4 11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3bd8e45-72ab-416c-90e1-cb31437fb2d2")
+	)
+	(fp_line
+		(start -1 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0022856b-7db6-46e3-8a97-b3fc1fc778b0")
+	)
+	(fp_line
+		(start 4 0.06)
+		(end 4 11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1cf3c249-09c6-403b-aab4-da23a0c1813f")
+	)
+	(fp_line
+		(start 4 11)
+		(end -4 11)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1c34b0be-f1e1-4607-9114-be1399ee84da")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 8.75 0)
+		(layer "F.Fab")
+		(uuid "64620ec2-8e13-4953-8fa2-ed3a397ee716")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -2.5 0)
+		(size 2.6 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66683577-db16-48c9-ac43-8eeaeaf5136d")
+	)
+	(pad "" thru_hole circle
+		(at 2.5 0)
+		(size 2.6 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d8e73dd8-5c95-4155-b39f-700ad4edc440")
+	)
+	(pad "1" thru_hole circle
+		(at 0 12.75)
+		(size 2.6 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0f8e49c3-47ec-498b-9d35-c69c69c5601d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 16.5)
+		(size 2.6 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d06b923-5b3f-41a2-bc2b-86d42ae044e5")
+	)
+	(pad "3" thru_hole circle
+		(at 0 20.25)
+		(size 2.6 2.6)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e157e073-9880-47a8-87f6-8cde3a427aee")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Lever_1P2T_NKK_GW12LxH.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

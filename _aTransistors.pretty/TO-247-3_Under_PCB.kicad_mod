@@ -1,7 +1,7 @@
 (footprint "TO-247-3_Under_PCB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "T3"
 		(at 5.5 -6.5 0)
@@ -21,19 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Horizontal_TabDown"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "ecf982e6-4ed3-4c1d-ae48-5cd7c8b3b884")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -137,12 +124,12 @@
 	)
 	(fp_circle
 		(center 5.45 -19.86)
-		(end 7.85 -19.86)
+		(end 8.7 -19.86)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "e5973b8c-5997-49fb-bc04-f3ed64f4557e")
 	)
@@ -181,6 +168,7 @@
 		(remove_unused_layers no)
 		(uuid "1b23618f-687e-4d55-996b-a453f17587e7")
 	)
+	(embedded_fonts no)
 	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-247-3_Horizontal_TabDown.wrl"
 		(offset
 			(xyz 0 0 0)

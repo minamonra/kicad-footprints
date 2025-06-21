@@ -1,7 +1,7 @@
 (footprint "РШ2Н-1-17-RSB"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "РШ2Н-2-17, электрический соединитель прямоугольный РШ2Н-2 ")
 	(tags "РШ2Н-2-17")
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "05f2bb9b-2d52-4578-815b-52804c5907ec")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -1874,17 +1864,85 @@
 		(layer "F.CrtYd")
 		(uuid "895acf8a-2d63-416d-80f0-94476fe2b6d8")
 	)
-	(fp_text user "https://www.promelec.ru/fs/sources/a2/bc/04/6c/d70f19ab8a0e4f7bda4e4e4c.pdf"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "feb449c1-ae08-443c-87f0-0634dfbb579e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
+	(fp_line
+		(start -58 -7)
+		(end -58 7)
+		(stroke
+			(width 0.1)
+			(type default)
 		)
+		(layer "F.Fab")
+		(uuid "d7a3e0bf-4780-42f3-a5b3-898c01e3be66")
+	)
+	(fp_line
+		(start -58 7)
+		(end 58 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e2760a37-43ce-4c6d-b120-a39ef0a36067")
+	)
+	(fp_line
+		(start -50 -7)
+		(end -58 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "abf13283-4021-4c9b-abd9-bc8cc6be9aaa")
+	)
+	(fp_line
+		(start -50 -6)
+		(end -50 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e1969e50-a40d-4086-9831-3ba16e89f3b5")
+	)
+	(fp_line
+		(start 50 -7)
+		(end 50 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "78e9e0da-3a9f-486b-8455-149a29b45dd7")
+	)
+	(fp_line
+		(start 50 -6)
+		(end -50 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "831bf521-f6bd-45f7-a3b6-2f2a2e8990f5")
+	)
+	(fp_line
+		(start 58 -7)
+		(end 50 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "78485a6e-eace-4e65-8706-97c1e72be665")
+	)
+	(fp_line
+		(start 58 7)
+		(end 58 -7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "219a207c-b87d-4a77-9726-a44222314a7d")
 	)
 	(pad "" np_thru_hole circle
 		(at -54 0)
@@ -2179,4 +2237,5 @@
 		(thermal_bridge_angle 45)
 		(uuid "828b05b6-4eb2-42c5-80db-f3270523bce2")
 	)
+	(embedded_fonts no)
 )

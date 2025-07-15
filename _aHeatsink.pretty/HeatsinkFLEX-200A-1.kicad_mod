@@ -136,7 +136,7 @@
 	)
 	(fp_line
 		(start 24 -2)
-		(end 38 -2)
+		(end 36 -2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -155,8 +155,8 @@
 		(uuid "2cb47c2e-9c03-4ad3-920c-2d33f9be9555")
 	)
 	(fp_line
-		(start 38 -2)
-		(end 38 2)
+		(start 36 -2)
+		(end 36 2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -165,7 +165,7 @@
 		(uuid "a59d4d73-566a-4299-8e34-14713714d638")
 	)
 	(fp_line
-		(start 38 2)
+		(start 36 2)
 		(end 24 2)
 		(stroke
 			(width 0.1)

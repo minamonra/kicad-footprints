@@ -6,7 +6,7 @@
 	(descr "CP, Radial series, Radial, pin pitch=10.00mm, , diameter=30mm, Electrolytic Capacitor, , http://www.vishay.com/docs/28342/058059pll-si.pdf")
 	(tags "CP Radial series Radial pin pitch 10.00mm  diameter 30mm Electrolytic Capacitor")
 	(property "Reference" "REF**"
-		(at -0.05 -16.25 0)
+		(at -0.05 0 90)
 		(layer "F.SilkS")
 		(uuid "1528d9ae-2709-458b-ba57-8cb005e8a0af")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "CP_Radial_D30.0mm_P10.00mm_SnapIn"
-		(at -0.05 16.25 0)
+		(at -0.05 0 0)
 		(layer "F.Fab")
 		(uuid "24cc90ea-23f1-4cea-b511-29d4011381d4")
 		(effects
@@ -109,19 +109,18 @@
 			)
 		)
 	)
-	(pad "1" thru_hole roundrect
+	(pad "1" thru_hole circle
 		(at -5.05 0)
-		(size 4 4)
-		(drill 2)
+		(size 5 5)
+		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(roundrect_rratio 0.0625)
 		(uuid "36aa3b13-cfb9-414d-ad15-e868374d0a7f")
 	)
 	(pad "2" thru_hole circle
 		(at 4.95 0)
-		(size 4 4)
-		(drill 2)
+		(size 5 5)
+		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "72f53fc9-f641-40b9-aded-2ad60ec5ebb9")

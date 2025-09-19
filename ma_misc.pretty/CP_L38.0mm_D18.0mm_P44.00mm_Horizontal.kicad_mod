@@ -1,7 +1,7 @@
 (footprint "CP_L38.0mm_D18.0mm_P44.00mm_Horizontal"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "CP Axial series Axial Horizontal pin pitch 7.62mm  length 38mm diameter 18mm Electrolytic Capacitor")
 	(property "Reference" "REF**"
@@ -22,19 +22,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "a815615d-abe2-4663-89d3-ebcfb91adb47")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -206,16 +193,6 @@
 		(layer "F.Fab")
 		(uuid "53df9910-cc87-4c03-9e5a-6fea7df49fe6")
 	)
-	(fp_line
-		(start 44 0)
-		(end 41 0)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "6243f6c9-8bbb-45cc-bd11-88e0ebfbce4e")
-	)
 	(fp_text user "${REFERENCE}"
 		(at 22 0 0)
 		(layer "F.Fab")
@@ -243,4 +220,5 @@
 		(remove_unused_layers no)
 		(uuid "cdebc101-9638-43ca-a70a-a7a0d23a57e5")
 	)
+	(embedded_fonts no)
 )

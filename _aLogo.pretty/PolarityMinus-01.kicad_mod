@@ -1,0 +1,83 @@
+(footprint "PolarityMinus-01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Polarity Logo, Center Negative")
+	(tags "Logo Polarity Center Negative")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c994c254-ed3f-430b-8b16-19f4945a1a67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PolarityMinus-01"
+		(at 0.75 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bf07dfa-5221-46e8-a793-2c47e86822ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5258127b-6fcb-4674-ade8-c585ef87afc1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05fbc522-d083-46b5-a534-89555ad8c196")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
+	(fp_circle
+		(center -0.001875 -0.0156)
+		(end 2.198125 -0.0156)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1e76e83b-4177-4364-aa01-fa8ad86351a7")
+	)
+	(fp_poly
+		(pts
+			(xy 1.507036 0.301782) (xy -1.510786 0.301782) (xy -1.510786 -0.301782) (xy 1.507036 -0.301782) (xy 1.507036 0.301782)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "562d01b3-a401-4827-ae2d-1f5c56a14fc8")
+	)
+	(embedded_fonts no)
+)

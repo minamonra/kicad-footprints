@@ -55,16 +55,6 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -50 0)
-		(end -40 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d35f28d7-d296-4c78-873a-7bd9d5aa30cc")
-	)
-	(fp_line
 		(start -25 8)
 		(end -25 -8)
 		(stroke
@@ -83,16 +73,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5c052210-5f43-4acb-9dba-7ecf8cdd58e0")
-	)
-	(fp_line
-		(start 40 0)
-		(end 50 0)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "50235c4c-83a0-45d5-a54e-f70efd3ebb83")
 	)
 	(fp_rect
 		(start -50 -8)

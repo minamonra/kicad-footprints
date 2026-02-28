@@ -1,0 +1,108 @@
+(footprint "PCBTAB7"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TE Connectivity FASTON .250 Series , Straight Mount Angle PCB Tab Terminal, 6.35 x 0.81mm Tin Plated")
+	(tags "connector tab pcb")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "44aade07-f7ec-4eb6-bd0c-6623d1188af5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3c9648c6-09f1-428b-b410-fef6fbed9b51")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(italic yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94d88441-50b9-4078-9848-3330d824166a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -2.5 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62e53c01-e46d-4bf6-9b76-ca21468ea309")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.02 1.3)
+		(end 1.1 1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "88eec740-1b6d-49c4-acba-74e4a5985966")
+	)
+	(fp_line
+		(start 1.1 -1.3)
+		(end -1.02 -1.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36598333-b300-4c5f-8202-8a4bb6fce4ce")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 3.4 3.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09814dc0-02c9-4985-8569-ebfd7d3fc07a")
+	)
+	(pad "1" thru_hole circle
+		(at 2.58 0)
+		(size 3.4 3.4)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0182dd0d-e3ce-4acf-8b32-f0e2a830ddc3")
+	)
+	(embedded_fonts no)
+	(model "X:/_github/kicad-footprints/_aConnectors.pretty/3d/TE_Connectivity_FASTON_PCBTabTerminal.stp"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

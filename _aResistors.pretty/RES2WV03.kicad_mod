@@ -1,4 +1,4 @@
-(footprint "RES2WV02"
+(footprint "RES2WV03"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "RES2WV02"
+	(property "Value" "RES2WV03"
 		(at 2.54 3.37 0)
 		(layer "F.Fab")
 		(uuid "740d6de4-a159-424e-b697-0ddf11455b72")
@@ -52,16 +52,16 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start 2 -1.5)
-		(end 15.5 1.5)
+	(fp_circle
+		(center 0 0)
+		(end 2.33 0)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.12)
+			(type solid)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "026bb06a-cbee-49db-9e23-66c9d18e458a")
+		(uuid "1a2757f9-f62f-4c08-be06-5d934eee4232")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 2.54 -3.37 0)
@@ -76,15 +76,15 @@
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 2.4 2.4)
+		(size 2.6 2.6)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "7dd230aa-8c0b-4cee-ac6a-19fdf22f1688")
 	)
-	(pad "2" thru_hole oval
-		(at 17.5 0)
-		(size 2.4 2.4)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.6 2.6)
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -96,10 +96,10 @@
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 1 1 1)
+			(xyz 0.75 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

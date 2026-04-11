@@ -1,4 +1,4 @@
-(footprint "RES2WV02"
+(footprint "RES2WV04"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "RES2WV02"
+	(property "Value" "RES2WV04"
 		(at 2.54 3.37 0)
 		(layer "F.Fab")
 		(uuid "740d6de4-a159-424e-b697-0ddf11455b72")
@@ -53,8 +53,8 @@
 	)
 	(attr through_hole)
 	(fp_rect
-		(start 2 -1.5)
-		(end 15.5 1.5)
+		(start 2 -2)
+		(end 15.5 2)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -91,15 +91,4 @@
 		(uuid "99a75df7-2e26-4a1e-8849-574c5b2ccb80")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

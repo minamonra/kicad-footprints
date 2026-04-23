@@ -1,0 +1,176 @@
+(footprint "D_DO-201_P15.24_01"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Diode, DO-201 series, Axial, Horizontal, pin pitch=15.24mm, length*diameter=9.53*5.21mm^2, http://www.diodes.com/_files/packages/DO-201.pdf")
+	(tags "Diode DO-201 series Axial Horizontal pin pitch 15.24mm  length 9.53mm diameter 5.21mm")
+	(property "Reference" "REF**"
+		(at 9 0 0)
+		(layer "F.SilkS")
+		(uuid "ba716746-6715-48ef-bd11-f173b5843789")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D_DO-201_P15.24_01"
+		(at 7.62 3.725 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "542336ef-d67c-4aac-aefb-460a5c56f387")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31f12aa8-63de-4e0a-a0df-9ff5b26d6d33")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "456d8e4b-2950-402a-8575-28e90d144553")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.54 0)
+		(end 2.735 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3f6b4f7d-5f40-45af-a08a-7f85a83370bb")
+	)
+	(fp_line
+		(start 4.1645 -2.725)
+		(end 4.1645 2.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "79ed5df6-e5ad-4e8a-90c1-3360d462f69b")
+	)
+	(fp_line
+		(start 4.2845 -2.725)
+		(end 4.2845 2.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6aff7af5-28ae-428a-8aeb-2af33165d370")
+	)
+	(fp_line
+		(start 4.4045 -2.725)
+		(end 4.4045 2.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a3247ec-10ca-4233-84e1-e19b132bd2d8")
+	)
+	(fp_line
+		(start 13.7 0)
+		(end 12.505 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61fe222f-a011-483d-84fd-bd006bf4886c")
+	)
+	(fp_rect
+		(start 2.735 -2.725)
+		(end 12.505 2.725)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "596a1b39-8f5d-48e4-95ef-5a040afd313f")
+	)
+	(fp_line
+		(start 4.1845 -2.605)
+		(end 4.1845 2.605)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2631b13-3b83-40d5-ace6-151907e36946")
+	)
+	(fp_line
+		(start 4.2845 -2.605)
+		(end 4.2845 2.605)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b5eb878-b31a-42d8-8150-2bf35ad2a087")
+	)
+	(fp_line
+		(start 4.3845 -2.605)
+		(end 4.3845 2.605)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1449885e-f77d-4523-bc2f-542af56fb6d1")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 3 3)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.096154)
+		(uuid "e8f6cea8-f433-4df5-a3b4-a1893b4dea08")
+	)
+	(pad "2" thru_hole circle
+		(at 15.24 0)
+		(size 3.2 3.2)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b972281f-3333-4f1e-acfb-aed1580c37a8")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_DO-201_P15.24mm_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
